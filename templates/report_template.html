@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+    <style>
+        :root {
+            --primary: #1a5fb4;
+            --primary-dark: #14407a;
+            --accent: #e66100;
+            --accent-light: #fff3e0;
+            --bg: #f8fafc;
+            --card: #ffffff;
+            --border: #e2e8f0;
+            --text: #1e293b;
+            --text-light: #64748b;
+            --green: #16a34a;
+            --green-bg: #f0fdf4;
+            --red: #dc2626;
+            --red-bg: #fef2f2;
+            --orange: #ea580c;
+            --orange-bg: #fff7ed;
+            --yellow: #ca8a04;
+            --yellow-bg: #fefce8;
+            --purple: #7c3aed;
+            --purple-bg: #f5f3ff;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'PingFang SC', 'Microsoft YaHei', -apple-system, Arial, sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+        .container { max-width: 1600px; margin: 0 auto; padding: 20px; }
+
+        /* Header */
+        .header { background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary) 100%); color: white; padding: 36px 40px 28px; border-radius: 16px; margin-bottom: 24px; position: relative; overflow: hidden; }
+        .header::before { content: ''; position: absolute; right: -60px; top: -60px; width: 240px; height: 240px; background: rgba(255,255,255,0.06); border-radius: 50%; }
+        .header::after { content: ''; position: absolute; right: 80px; bottom: -40px; width: 160px; height: 160px; background: rgba(255,255,255,0.04); border-radius: 50%; }
+        .header h1 { font-size: 26px; font-weight: 700; margin-bottom: 6px; letter-spacing: -0.5px; }
+        .header p { font-size: 14px; opacity: 0.85; max-width: 700px; }
+        .header-meta { display: flex; gap: 10px; margin-top: 16px; flex-wrap: wrap; }
+        .badge { background: rgba(255,255,255,0.15); border: 1px solid rgba(255,255,255,0.25); padding: 4px 12px; border-radius: 20px; font-size: 12px; backdrop-filter: blur(4px); }
+        .badge strong { font-weight: 600; }
+
+        /* Update Banner */
+        .update-banner { background: linear-gradient(135deg, #fef3c7, #fde68a); border: 1px solid #f59e0b; border-radius: 12px; padding: 14px 20px; margin-bottom: 20px; display: flex; align-items: center; gap: 10px; }
+        .update-banner .emoji { font-size: 20px; flex-shrink: 0; }
+        .update-banner .text { font-size: 13px; color: #92400e; }
+        .update-banner .text strong { color: #b45309; }
+
+        /* Stats */
+        .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 12px; margin-bottom: 20px; }
+        .stat-card { background: var(--card); border-radius: 10px; padding: 16px 20px; border: 1px solid var(--border); display: flex; align-items: center; gap: 14px; box-shadow: 0 1px 3px rgba(0,0,0,0.04); }
+        .stat-icon { width: 42px; height: 42px; border-radius: 10px; display: flex; align-items: center; justify-content: center; font-size: 20px; flex-shrink: 0; }
+        .stat-icon.blue { background: #eff6ff; }
+        .stat-icon.orange { background: var(--orange-bg); }
+        .stat-icon.green { background: var(--green-bg); }
+        .stat-icon.red { background: var(--red-bg); }
+        .stat-icon.purple { background: var(--purple-bg); }
+        .stat-icon.yellow { background: var(--yellow-bg); }
+        .stat-num { font-size: 24px; font-weight: 700; color: var(--text); line-height: 1.1; }
+        .stat-label { font-size: 12px; color: var(--text-light); margin-top: 1px; }
+
+        /* Filter Bar */
+        .filter-bar { background: var(--card); border-radius: 12px; padding: 16px 20px; border: 1px solid var(--border); margin-bottom: 16px; box-shadow: 0 1px 3px rgba(0,0,0,0.04); }
+        .filter-row { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin-bottom: 10px; }
+        .filter-row:last-child { margin-bottom: 0; }
+        .filter-label { font-size: 13px; color: var(--text-light); font-weight: 500; white-space: nowrap; margin-right: 4px; }
+        .filter-btn { padding: 5px 14px; border-radius: 18px; border: 1px solid var(--border); background: white; cursor: pointer; font-size: 12px; color: var(--text); transition: all 0.15s; font-family: inherit; white-space: nowrap; }
+        .filter-btn:hover { border-color: var(--primary); color: var(--primary); }
+        .filter-btn.active { background: var(--primary); color: white; border-color: var(--primary); }
+        .search-box { flex: 1; min-width: 240px; display: flex; align-items: center; background: var(--bg); border: 1px solid var(--border); border-radius: 8px; padding: 0 12px; }
+        .search-box input { border: none; background: transparent; padding: 8px 0; font-size: 13px; outline: none; width: 100%; font-family: inherit; color: var(--text); }
+
+        /* Table */
+        .table-wrapper { background: var(--card); border-radius: 12px; border: 1px solid var(--border); overflow: hidden; box-shadow: 0 1px 3px rgba(0,0,0,0.04); margin-bottom: 24px; }
+        .table-header { padding: 14px 20px; border-bottom: 1px solid var(--border); display: flex; align-items: center; justify-content: space-between; }
+        .table-title { font-size: 15px; font-weight: 600; }
+        .table-count { font-size: 12px; color: var(--text-light); background: var(--bg); padding: 2px 10px; border-radius: 12px; }
+        .table-scroll { overflow-x: auto; }
+        table { width: 100%; border-collapse: collapse; min-width: 1200px; }
+        thead { background: #f8fafc; }
+        th { padding: 10px 14px; text-align: left; font-size: 11px; font-weight: 600; color: var(--text-light); text-transform: uppercase; letter-spacing: 0.5px; border-bottom: 1px solid var(--border); white-space: nowrap; }
+        td { padding: 12px 14px; border-bottom: 1px solid var(--border); font-size: 13px; vertical-align: top; }
+        tr:last-child td { border-bottom: none; }
+        tr:hover { background: #f8fafc; }
+
+        /* Tags */
+        .tag { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 11px; font-weight: 500; white-space: nowrap; }
+        .tag-new { background: var(--red-bg); color: var(--red); }
+        .tag-active { background: var(--green-bg); color: var(--green); }
+        .tag-progress { background: var(--orange-bg); color: var(--orange); }
+        .tag-coming { background: #f0f9ff; color: #0369a1; }
+        .tag-category { background: #eff6ff; color: var(--primary); }
+        .tag-priority-3 { background: var(--red-bg); color: var(--red); }
+        .tag-priority-2 { background: var(--yellow-bg); color: var(--yellow); }
+        .tag-priority-1 { background: var(--green-bg); color: var(--green); }
+        .tag-region { background: var(--purple-bg); color: var(--purple); }
+
+        /* Links */
+        .link-btn { display: inline-flex; align-items: center; gap: 4px; padding: 4px 10px; border-radius: 5px; font-size: 11px; text-decoration: none; transition: all 0.15s; font-weight: 500; white-space: nowrap; }
+        .link-btn.primary { background: var(--primary); color: white; }
+        .link-btn.primary:hover { background: var(--primary-dark); }
+        .link-btn.secondary { background: var(--bg); color: var(--text); border: 1px solid var(--border); }
+        .link-btn.secondary:hover { border-color: var(--primary); color: var(--primary); }
+        .link-btn.orange { background: var(--orange-bg); color: var(--orange); border: 1px solid #fed7aa; }
+        .link-btn.orange:hover { background: #ffedd5; }
+        .link-group { display: flex; gap: 5px; flex-wrap: wrap; }
+
+        /* Company */
+        .company-name { font-weight: 600; color: var(--text); font-size: 13px; }
+        .company-link { color: var(--primary); text-decoration: none; font-size: 11px; }
+        .company-link:hover { text-decoration: underline; }
+        .company-detail { color: var(--text-light); font-size: 11px; margin-top: 2px; }
+        .address { color: var(--text-light); font-size: 12px; max-width: 220px; }
+        .phone-info { color: var(--green); font-size: 11px; font-weight: 500; margin-top: 2px; }
+
+        /* New items highlight */
+        tr.new-item { background: #fffbeb; }
+        tr.new-item:hover { background: #fef3c7; }
+        tr.new-item td:first-child { border-left: 3px solid #f59e0b; }
+
+        /* Guide */
+        .guide { background: linear-gradient(135deg, #fff7ed, #fff3e0); border: 1px solid #fed7aa; border-radius: 12px; padding: 18px 24px; margin-bottom: 20px; }
+        .guide h3 { font-size: 14px; font-weight: 600; color: var(--orange); margin-bottom: 8px; display: flex; align-items: center; gap: 6px; }
+        .guide p { font-size: 12px; color: #92400e; margin-bottom: 5px; }
+        .guide p:last-child { margin-bottom: 0; }
+
+        /* Footer */
+        .footer-info { background: var(--card); border-radius: 12px; padding: 18px 24px; border: 1px solid var(--border); margin-bottom: 20px; }
+        .footer-info h3 { font-size: 14px; font-weight: 600; margin-bottom: 10px; color: var(--text); }
+        .footer-info p { font-size: 12px; color: var(--text-light); margin-bottom: 6px; }
+        .footer-info a { color: var(--primary); text-decoration: none; }
+        .footer-info a:hover { text-decoration: underline; }
+
+        /* Priority Legend */
+        .priority-legend { background: var(--card); border-radius: 12px; padding: 16px 24px; border: 1px solid var(--border); margin-bottom: 20px; }
+        .priority-legend h3 { font-size: 14px; font-weight: 600; margin-bottom: 10px; }
+        .legend-items { display: flex; gap: 24px; flex-wrap: wrap; }
+        .legend-item { display: flex; align-items: center; gap: 6px; font-size: 12px; }
+        .legend-dot { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
+        .legend-dot.high { background: var(--red); }
+        .legend-dot.mid { background: var(--yellow); }
+        .legend-dot.low { background: var(--green); }
+
+        .footer { text-align: center; padding: 20px; color: var(--text-light); font-size: 12px; }
+        .hidden { display: none !important; }
+
+        ::-webkit-scrollbar { width: 6px; height: 6px; }
+        ::-webkit-scrollbar-track { background: transparent; }
+        ::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 3px; }
+
+        @media (max-width: 768px) {
+            .container { padding: 12px; }
+            .header { padding: 20px 16px; }
+            .header h1 { font-size: 18px; }
+            .stats { grid-template-columns: repeat(2, 1fr); }
+            table { min-width: 900px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <h1>🏗️ {{ title }}</h1>
+            <p>建材模板/木方厂家专用BD工具 · 含承建方官网、联系电话、中标链接、BD优先级</p>
+            <div class="header-meta">
+                <span class="badge"><strong>{{ stats.total }}</strong> 重点在建项目</span>
+                <span class="badge"><strong>{{ stats.new_count }}</strong> 个{{ stats.period }}新开工 🆕</span>
+                <span class="badge">📍 含详细地址</span>
+                <span class="badge">📞 含联系电话</span>
+                <span class="badge">🔗 含中标链接</span>
+                <span class="badge">⭐ BD优先级评分</span>
+            </div>
+        </div>
+
+        <!-- Update Banner -->
+        <div class="update-banner">
+            <span class="emoji">🆕</span>
+            <div class="text">
+                <strong>{{ banner.title }}</strong> · {{ banner.description }}
+            </div>
+        </div>
+
+        <!-- Stats -->
+        <div class="stats">
+            <div class="stat-card">
+                <div class="stat-icon blue">📅</div>
+                <div><div class="stat-num">{{ stats.total }}</div><div class="stat-label">重点在建项目</div></div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon orange">🆕</div>
+                <div><div class="stat-num">{{ stats.new_count }}</div><div class="stat-label">{{ stats.period }}新开工</div></div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon red">⭐⭐⭐</div>
+                <div><div class="stat-num">{{ stats.high_priority }}</div><div class="stat-label">高优先级（立即跟进）</div></div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon yellow">⭐⭐</div>
+                <div><div class="stat-num">{{ stats.mid_priority }}</div><div class="stat-label">中优先级（本周联系）</div></div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon purple">🏭</div>
+                <div><div class="stat-num">{{ stats.tech_count }}</div><div class="stat-label">科技产业/厂房类</div></div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon green">🏥</div>
+                <div><div class="stat-num">{{ stats.social_count }}</div><div class="stat-label">医疗/教育类</div></div>
+            </div>
+        </div>
+
+        <!-- Filter Bar -->
+        <div class="filter-bar">
+            <div class="filter-row">
+                <span class="filter-label">按状态筛选：</span>
+                <button class="filter-btn active" data-filter="all" data-type="status">全部 ({{ stats.total }})</button>
+                <button class="filter-btn" data-filter="new" data-type="status">🆕 新开工 ({{ stats.new_count }})</button>
+                <button class="filter-btn" data-filter="active" data-type="status">🏗️ 在建 ({{ stats.active_count }})</button>
+            </div>
+            <div class="filter-row">
+                <span class="filter-label">按类型筛选：</span>
+                <button class="filter-btn active" data-filter="all" data-type="category">全部</button>
+                {% for cat in filter_categories %}
+                <button class="filter-btn" data-filter="{{ cat.name }}" data-type="category">{{ cat.icon }} {{ cat.name }} ({{ cat.count }})</button>
+                {% endfor %}
+            </div>
+            <div class="filter-row">
+                <span class="filter-label">按优先级：</span>
+                <button class="filter-btn active" data-filter="all" data-type="priority">全部</button>
+                <button class="filter-btn" data-filter="3" data-type="priority">⭐⭐⭐ 高 ({{ stats.high_priority }})</button>
+                <button class="filter-btn" data-filter="2" data-type="priority">⭐⭐ 中 ({{ stats.mid_priority }})</button>
+                <button class="filter-btn" data-filter="1" data-type="priority">⭐ 低 ({{ stats.low_priority }})</button>
+            </div>
+            <div class="filter-row">
+                <div class="search-box">
+                    <span>🔍</span>
+                    <input type="text" id="searchInput" placeholder="搜索项目名称、承建单位、地址、区域...">
+                </div>
+            </div>
+        </div>
+
+        <!-- Table -->
+        <div class="table-wrapper">
+            <div class="table-header">
+                <span class="table-title">📋 项目详细信息（新开工优先 → BD优先级排序）</span>
+                <span class="table-count" id="resultCount">共 {{ stats.total }} 条</span>
+            </div>
+            <div class="table-scroll">
+            <table>
+                <thead>
+                    <tr>
+                        <th style="width:50px">BD</th>
+                        <th style="width:90px">开工时间</th>
+                        <th style="width:50px">状态</th>
+                        <th style="width:50px">区域</th>
+                        <th style="width:230px">项目名称</th>
+                        <th style="width:200px">项目实际地址</th>
+                        <th style="width:170px">承建单位</th>
+                        <th style="width:70px">资质</th>
+                        <th style="width:90px">模板需求</th>
+                        <th>招标/中标链接</th>
+                    </tr>
+                </thead>
+                <tbody id="projectTable"></tbody>
+            </table>
+            </div>
+        </div>
+
+        <!-- Priority Legend -->
+        <div class="priority-legend">
+            <h3>📊 BD优先级评分说明</h3>
+            <div class="legend-items">
+                <div class="legend-item"><div class="legend-dot high"></div><strong>⭐⭐⭐ 高优先级</strong> — 立即跟进，实地拜访</div>
+                <div class="legend-item"><div class="legend-dot mid"></div><strong>⭐⭐ 中优先级</strong> — 本周电话联系，安排拜访</div>
+                <div class="legend-item"><div class="legend-dot low"></div><strong>⭐ 低优先级</strong> — 纳入观察名单，模板需求有限</div>
+            </div>
+        </div>
+
+        <!-- BD Guide -->
+        <div class="guide">
+            <h3>💡 建材模板厂家BD开发建议</h3>
+            <p><strong>步骤一：锁定目标</strong> → 筛选"🆕 新开工"+ "⭐⭐⭐ 高优先级"，新开工项目是最佳切入时机（承建方正在采购材料）。</p>
+            <p><strong>步骤二：找承建单位</strong> → 点击承建单位官网，搜索"采购部"、"材料部"、"供应链"联系方式。标记为"招标中"的项目，要紧盯中标公告。</p>
+            <p><strong>步骤三：查中标信息</strong> → 点击"🔗"链接查看具体标段，找到负责土建施工的项目经理/采购负责人姓名。</p>
+            <p><strong>步骤四：实地拜访</strong> → 拿着项目地址到工地现场，找物资部/材料部，现场洽谈合作。大型项目工期长、用料持续，是优质长期客户。</p>
+            <p><strong>步骤五：建立关系</strong> → 上海建工、中建系、中铁系是核心大客户，打通一个项目经理关系，后续项目可以直接跟进。</p>
+        </div>
+
+        <!-- Key Official Resources -->
+        <div class="footer-info">
+            <h3>🔗 核心官方查询入口</h3>
+            <p>📌 <a href="https://jzsc.mohurd.gov.cn" target="_blank">全国建筑市场监管公共服务平台（四库一平台）</a> — 查所有项目施工总承包单位及资质</p>
+            <p>📌 <a href="https://www.shcpe.cn" target="_blank">上海市建设工程交易服务中心</a> — 查最新中标公示、招标公告</p>
+            <p>📌 <a href="https://service.shanghai.gov.cn/XxgkProject" target="_blank">上海工程建设领域信息公开共享平台</a> — 5000+条项目审批、施工许可信息</p>
+            <p>📌 <a href="https://ciac.zjw.sh.gov.cn" target="_blank">上海市建设市场信息服务平台</a> — 施工企业、项目负责人信息</p>
+            <p>📌 <a href="https://www.bidcenter.com.cn" target="_blank">采招网</a> — 第三方招标公告聚合</p>
+            <p>📌 <a href="https://www.shanghai.gov.cn/nw48306/index.html" target="_blank">上海市重大工程清单</a> — 184项重大在建工程完整名单</p>
+        </div>
+
+        <div class="footer">
+            <p>数据来源：上海市人民政府、上海市住建委、上海建设工程交易服务中心、全国建筑市场监管公共服务平台、采招网</p>
+            <p>数据更新时间：{{ update_time }} · 仅供商业参考，请以官方公示为准</p>
+        </div>
+
+    </div>
+
+    <script>
+    // ─── 内嵌数据 ───
+    const PROJECTS = {{ projects_json | safe }};
+
+    // ─── 渲染表格 ───
+    function renderTable() {
+        const tbody = document.getElementById('projectTable');
+        if (!tbody) return;
+
+        tbody.innerHTML = PROJECTS.map(p => {
+            const isNew = p.is_new;
+            const statusClass = isNew ? 'new' : (p.status === '在建' ? 'active' : 'progress');
+            const statusText = isNew ? '新开工' : p.status;
+            const statusTag = isNew ? 'tag-new' : (p.status === '在建' ? 'tag-active' : 'tag-progress');
+            const priorityTag = `tag-priority-${p.bd_priority}`;
+            const rowClass = isNew ? 'new-item' : '';
+            const keywords = [p.name, p.contractor, p.region, p.category, p.sub_category, p.address]
+                .filter(Boolean).join(' ');
+
+            // 子分类显示
+            const subDisplay = p.sub_category ? `${p.category}/${p.sub_category}` : p.category;
+
+            // 承建方信息
+            let companyHtml = `<div class="company-name">${p.contractor || '待确认'}</div>`;
+            if (p.contractor_website && p.contractor_website !== 'https://jzsc.mohurd.gov.cn') {
+                const domain = p.contractor_website.replace(/^https?:\/\//, '').replace(/\/.*/, '');
+                companyHtml += `<a class="company-link" href="${p.contractor_website}" target="_blank">官网：${domain}</a>`;
+            }
+            if (p.contractor_qualification) {
+                companyHtml += `<div class="company-detail">${p.contractor_qualification}</div>`;
+            }
+            if (p.contractor_phone) {
+                companyHtml += `<div class="phone-info">📞 ${p.contractor_phone}</div>`;
+            }
+
+            // 招标链接
+            let linksHtml = '<div class="link-group">';
+            if (p.bid_result_link) {
+                linksHtml += `<a class="link-btn orange" href="${p.bid_result_link}" target="_blank">🔗 中标结果</a>`;
+            }
+            if (p.bid_link && p.bid_link !== 'https://www.shcpe.cn') {
+                linksHtml += `<a class="link-btn secondary" href="${p.bid_link}" target="_blank">招标公告</a>`;
+            }
+            if (!p.bid_result_link) {
+                linksHtml += `<a class="link-btn secondary" href="https://www.shcpe.cn" target="_blank">招标公告</a>`;
+            }
+            linksHtml += '</div>';
+
+            // 地址简化
+            let addressShort = (p.address || '').replace(/^📍\s*/, '');
+
+            // 模板需求标签
+            const templateText = p.template_estimate || '待评估';
+            const templateIsBold = templateText.includes('需求大') || templateText.includes('需求极大');
+
+            return `<tr class="${rowClass}" data-status="${statusClass}" data-category="${p.category}" data-priority="${p.bd_priority}" data-keywords="${keywords.replace(/"/g, '&quot;')}">
+                <td><span class="tag ${priorityTag}">${p.bd_priority_text}</span></td>
+                <td><strong>${p.start_date || '—'}</strong></td>
+                <td><span class="tag ${statusTag}">${statusText}</span></td>
+                <td><span class="tag tag-region">${p.region || '—'}</span></td>
+                <td><strong>${p.name}</strong><br><span class="tag tag-category">${subDisplay}</span></td>
+                <td class="address">📍 ${addressShort}</td>
+                <td>${companyHtml}</td>
+                <td>${p.contractor_qualification ? `<span class="tag tag-active">${p.contractor_qualification.replace('资质', '')}</span>` : '—'}</td>
+                <td>${templateIsBold ? `<strong>${templateText}</strong>` : `<span class="tag tag-progress">${templateText}</span>`}</td>
+                <td>${linksHtml}</td>
+            </tr>`;
+        }).join('');
+    }
+
+    // ─── 筛选 & 搜索 ───
+    function initFilters() {
+        const filterBtns = document.querySelectorAll('.filter-btn[data-filter]');
+        const rows = document.querySelectorAll('#projectTable tr');
+        const searchInput = document.getElementById('searchInput');
+        const resultCount = document.getElementById('resultCount');
+        let currentStatus = 'all';
+        let currentCategory = 'all';
+        let currentPriority = 'all';
+
+        function applyFilters() {
+            let count = 0;
+            const keyword = searchInput ? searchInput.value.toLowerCase().trim() : '';
+            rows.forEach(row => {
+                const status = row.dataset.status || '';
+                const category = row.dataset.category || '';
+                const priority = row.dataset.priority || '';
+                const keywords = row.dataset.keywords || '';
+                const text = row.textContent.toLowerCase();
+                let show = true;
+
+                if (currentStatus !== 'all' && status !== currentStatus) show = false;
+                if (currentCategory !== 'all' && category !== currentCategory) show = false;
+                if (currentPriority !== 'all' && priority !== currentPriority) show = false;
+                if (keyword && !text.includes(keyword) && !keywords.includes(keyword)) show = false;
+
+                row.classList.toggle('hidden', !show);
+                if (show) count++;
+            });
+            if (resultCount) resultCount.textContent = `共 ${count} 条`;
+        }
+
+        filterBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                const type = btn.dataset.type;
+                const value = btn.dataset.filter;
+                document.querySelectorAll(`.filter-btn[data-type="${type}"]`).forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                if (type === 'status') currentStatus = value;
+                else if (type === 'category') currentCategory = value;
+                else if (type === 'priority') currentPriority = value;
+                applyFilters();
+            });
+        });
+
+        if (searchInput) {
+            searchInput.addEventListener('input', applyFilters);
+        }
+    }
+
+    // ─── 初始化 ───
+    document.addEventListener('DOMContentLoaded', () => {
+        renderTable();
+        initFilters();
+    });
+    </script>
+</body>
+</html>

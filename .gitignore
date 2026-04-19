@@ -6,6 +6,7 @@ Thumbs.db
 .workbuddy/
 
 # Secrets
+config.json
 scripts/token_cache.json
 
 # IDE
@@ -13,3 +14,8 @@ scripts/token_cache.json
 .vscode/
 *.swp
 *.swo
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
