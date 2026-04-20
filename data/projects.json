@@ -13,8 +13,8 @@
     "investment": null,
     "area": null,
     "template_estimate": "待评估",
-    "bd_priority": 2,
-    "bd_priority_text": "⭐⭐",
+    "bd_priority": 1,
+    "bd_priority_text": "⭐",
     "contractor": "施工总承包（招标中）",
     "contractor_website": "https://jzsc.mohurd.gov.cn",
     "contractor_credit_code": "",
@@ -27,7 +27,13 @@
     "bid_link": "https://www.shcpe.cn",
     "bid_result_link": "",
     "first_seen": "2026-04-19",
-    "notes": "海洋科研设施，钢结构为主，模板需求有限"
+    "notes": "海洋科研设施，钢结构为主，模板需求有限",
+    "bd_score": 2.7,
+    "bd_score_details": {
+      "volume": 0,
+      "timeliness": 7,
+      "contractor": 2
+    }
   },
   {
     "id": "7ab92a5b",
@@ -43,8 +49,8 @@
     "investment": null,
     "area": null,
     "template_estimate": "市政桥梁模板需求中等",
-    "bd_priority": 2,
-    "bd_priority_text": "⭐⭐",
+    "bd_priority": 1,
+    "bd_priority_text": "⭐",
     "contractor": "上海申渝公路建设发展有限公司",
     "contractor_website": "https://jzsc.mohurd.gov.cn",
     "contractor_credit_code": "",
@@ -57,7 +63,13 @@
     "bid_link": "https://sh.bidcenter.com.cn",
     "bid_result_link": "https://sh.bidcenter.com.cn/diqucontent-405037924-2.html",
     "first_seen": "2026-04-19",
-    "notes": "施工单位招标中，需关注桥梁段模板"
+    "notes": "施工单位招标中，需关注桥梁段模板",
+    "bd_score": 2.7,
+    "bd_score_details": {
+      "volume": 0,
+      "timeliness": 7,
+      "contractor": 2
+    }
   },
   {
     "id": "90dfe476",
@@ -73,8 +85,8 @@
     "investment": null,
     "area": null,
     "template_estimate": "市政桥梁模板需求中等",
-    "bd_priority": 2,
-    "bd_priority_text": "⭐⭐",
+    "bd_priority": 1,
+    "bd_priority_text": "⭐",
     "contractor": "施工总承包（招标中）",
     "contractor_website": "https://jzsc.mohurd.gov.cn",
     "contractor_credit_code": "",
@@ -87,7 +99,13 @@
     "bid_link": "https://www.shcpe.cn",
     "bid_result_link": "",
     "first_seen": "2026-04-19",
-    "notes": "招标中，关注后续中标公告"
+    "notes": "招标中，关注后续中标公告",
+    "bd_score": 2.7,
+    "bd_score_details": {
+      "volume": 0,
+      "timeliness": 7,
+      "contractor": 2
+    }
   },
   {
     "id": "cad8e138",
@@ -103,8 +121,8 @@
     "investment": null,
     "area": null,
     "template_estimate": "隧道工程模板需求量大",
-    "bd_priority": 3,
-    "bd_priority_text": "⭐⭐⭐",
+    "bd_priority": 2,
+    "bd_priority_text": "⭐⭐",
     "contractor": "上海建工集团股份有限公司",
     "contractor_website": "https://www.scg.com.cn",
     "contractor_credit_code": "91310000607220683D",
@@ -117,7 +135,13 @@
     "bid_link": "https://fgw.sh.gov.cn",
     "bid_result_link": "https://www.scg.com.cn/scg_tpxw/2026-01-04/Detail_239776.htm",
     "first_seen": "2026-04-19",
-    "notes": "大型隧道工程，模板需求量大，上海建工是核心客户"
+    "notes": "大型隧道工程，模板需求量大，上海建工是核心客户",
+    "bd_score": 5.1,
+    "bd_score_details": {
+      "volume": 0,
+      "timeliness": 7,
+      "contractor": 10
+    }
   },
   {
     "id": "d20a572c",
@@ -147,7 +171,13 @@
     "bid_link": "https://www.bidcenter.com.cn",
     "bid_result_link": "https://www.bidcenter.com.cn/enterprise/shjjlyyxgs/",
     "first_seen": "2026-04-19",
-    "notes": "文旅项目，建筑造型可能较复杂"
+    "notes": "文旅项目，建筑造型可能较复杂",
+    "bd_score": 5.1,
+    "bd_score_details": {
+      "volume": 0,
+      "timeliness": 7,
+      "contractor": 10
+    }
   },
   {
     "id": "2bc8007a",
@@ -163,8 +193,8 @@
     "investment": null,
     "area": null,
     "template_estimate": "大型厂房，模板需求大",
-    "bd_priority": 3,
-    "bd_priority_text": "⭐⭐⭐",
+    "bd_priority": 1,
+    "bd_priority_text": "⭐",
     "contractor": "施工总承包（招标中）",
     "contractor_website": "https://jzsc.mohurd.gov.cn",
     "contractor_credit_code": "",
@@ -177,7 +207,13 @@
     "bid_link": "https://www.shcpe.cn",
     "bid_result_link": "",
     "first_seen": "2026-04-19",
-    "notes": "超级智能工厂=大型厂房项目，模板需求量大，持续跟进中标"
+    "notes": "超级智能工厂=大型厂房项目，模板需求量大，持续跟进中标",
+    "bd_score": 2.7,
+    "bd_score_details": {
+      "volume": 0,
+      "timeliness": 7,
+      "contractor": 2
+    }
   },
   {
     "id": "165afc77",
@@ -193,8 +229,8 @@
     "investment": null,
     "area": null,
     "template_estimate": "厂房建设，模板需求中上",
-    "bd_priority": 2,
-    "bd_priority_text": "⭐⭐",
+    "bd_priority": 1,
+    "bd_priority_text": "⭐",
     "contractor": "施工总承包（招标中）",
     "contractor_website": "https://jzsc.mohurd.gov.cn",
     "contractor_credit_code": "",
@@ -207,7 +243,13 @@
     "bid_link": "https://www.shcpe.cn",
     "bid_result_link": "",
     "first_seen": "2026-04-19",
-    "notes": "临港新片区厂房项目，持续关注"
+    "notes": "临港新片区厂房项目，持续关注",
+    "bd_score": 2.7,
+    "bd_score_details": {
+      "volume": 0,
+      "timeliness": 7,
+      "contractor": 2
+    }
   },
   {
     "id": "59e7b86d",
@@ -223,8 +265,8 @@
     "investment": null,
     "area": null,
     "template_estimate": "大型汽车零部件基地，模板需求大",
-    "bd_priority": 3,
-    "bd_priority_text": "⭐⭐⭐",
+    "bd_priority": 1,
+    "bd_priority_text": "⭐",
     "contractor": "施工总承包（招标中）",
     "contractor_website": "https://jzsc.mohurd.gov.cn",
     "contractor_credit_code": "",
@@ -237,7 +279,13 @@
     "bid_link": "https://www.shcpe.cn",
     "bid_result_link": "",
     "first_seen": "2026-04-19",
-    "notes": "延锋是上汽系核心供应商，安亭汽车城大型厂房，重点跟进"
+    "notes": "延锋是上汽系核心供应商，安亭汽车城大型厂房，重点跟进",
+    "bd_score": 2.7,
+    "bd_score_details": {
+      "volume": 0,
+      "timeliness": 7,
+      "contractor": 2
+    }
   },
   {
     "id": "68739cb0",
@@ -267,7 +315,13 @@
     "bid_link": "https://www.shcpe.cn",
     "bid_result_link": "",
     "first_seen": "2026-04-19",
-    "notes": "排水改造为主，模板需求有限"
+    "notes": "排水改造为主，模板需求有限",
+    "bd_score": 2.7,
+    "bd_score_details": {
+      "volume": 0,
+      "timeliness": 7,
+      "contractor": 2
+    }
   },
   {
     "id": "18af5d1c",
@@ -283,8 +337,8 @@
     "investment": null,
     "area": null,
     "template_estimate": "大学校园，模板需求大（教学楼+宿舍+实验室）",
-    "bd_priority": 3,
-    "bd_priority_text": "⭐⭐⭐",
+    "bd_priority": 1,
+    "bd_priority_text": "⭐",
     "contractor": "施工总承包（招标中）",
     "contractor_website": "https://jzsc.mohurd.gov.cn",
     "contractor_credit_code": "",
@@ -297,7 +351,13 @@
     "bid_link": "https://www.shcpe.cn",
     "bid_result_link": "",
     "first_seen": "2026-04-19",
-    "notes": "华东师大新校区，建筑面积大，教学楼+宿舍+图书馆，模板需求大"
+    "notes": "华东师大新校区，建筑面积大，教学楼+宿舍+图书馆，模板需求大",
+    "bd_score": 2.7,
+    "bd_score_details": {
+      "volume": 0,
+      "timeliness": 7,
+      "contractor": 2
+    }
   },
   {
     "id": "3f7d34d3",
@@ -313,8 +373,8 @@
     "investment": null,
     "area": null,
     "template_estimate": "医院建筑模板需求大",
-    "bd_priority": 3,
-    "bd_priority_text": "⭐⭐⭐",
+    "bd_priority": 1,
+    "bd_priority_text": "⭐",
     "contractor": "施工总承包（招标中）",
     "contractor_website": "https://jzsc.mohurd.gov.cn",
     "contractor_credit_code": "",
@@ -327,7 +387,13 @@
     "bid_link": "https://www.shcpe.cn",
     "bid_result_link": "",
     "first_seen": "2026-04-19",
-    "notes": "大型肿瘤专科医院二期，模板需求大"
+    "notes": "大型肿瘤专科医院二期，模板需求大",
+    "bd_score": 2.7,
+    "bd_score_details": {
+      "volume": 0,
+      "timeliness": 7,
+      "contractor": 2
+    }
   },
   {
     "id": "0d900a03",
@@ -343,8 +409,8 @@
     "investment": null,
     "area": null,
     "template_estimate": "医院建筑模板需求中上",
-    "bd_priority": 2,
-    "bd_priority_text": "⭐⭐",
+    "bd_priority": 1,
+    "bd_priority_text": "⭐",
     "contractor": "施工总承包（招标中）",
     "contractor_website": "https://jzsc.mohurd.gov.cn",
     "contractor_credit_code": "",
@@ -357,7 +423,13 @@
     "bid_link": "https://www.shcpe.cn",
     "bid_result_link": "",
     "first_seen": "2026-04-19",
-    "notes": "临港院区新建中心"
+    "notes": "临港院区新建中心",
+    "bd_score": 2.7,
+    "bd_score_details": {
+      "volume": 0,
+      "timeliness": 7,
+      "contractor": 2
+    }
   },
   {
     "id": "033a3e07",
@@ -373,8 +445,8 @@
     "investment": null,
     "area": null,
     "template_estimate": "数据中心厂房模板需求中等",
-    "bd_priority": 2,
-    "bd_priority_text": "⭐⭐",
+    "bd_priority": 1,
+    "bd_priority_text": "⭐",
     "contractor": "施工总承包（招标中）",
     "contractor_website": "https://jzsc.mohurd.gov.cn",
     "contractor_credit_code": "",
@@ -387,7 +459,13 @@
     "bid_link": "https://www.shcpe.cn",
     "bid_result_link": "",
     "first_seen": "2026-04-19",
-    "notes": "大型数据中心二期，钢结构+混凝土结构混合"
+    "notes": "大型数据中心二期，钢结构+混凝土结构混合",
+    "bd_score": 2.7,
+    "bd_score_details": {
+      "volume": 0,
+      "timeliness": 7,
+      "contractor": 2
+    }
   },
   {
     "id": "d5afac8a",
@@ -403,8 +481,8 @@
     "investment": null,
     "area": null,
     "template_estimate": "工业厂房模板需求中等",
-    "bd_priority": 2,
-    "bd_priority_text": "⭐⭐",
+    "bd_priority": 1,
+    "bd_priority_text": "⭐",
     "contractor": "施工总承包（招标中）",
     "contractor_website": "https://jzsc.mohurd.gov.cn",
     "contractor_credit_code": "",
@@ -417,7 +495,13 @@
     "bid_link": "https://www.shcpe.cn",
     "bid_result_link": "",
     "first_seen": "2026-04-19",
-    "notes": "新开工项目，地址待确认"
+    "notes": "新开工项目，地址待确认",
+    "bd_score": 2.7,
+    "bd_score_details": {
+      "volume": 0,
+      "timeliness": 7,
+      "contractor": 2
+    }
   },
   {
     "id": "1643a5ac",
@@ -433,8 +517,8 @@
     "investment": null,
     "area": null,
     "template_estimate": "厂房园区模板需求大",
-    "bd_priority": 2,
-    "bd_priority_text": "⭐⭐",
+    "bd_priority": 1,
+    "bd_priority_text": "⭐",
     "contractor": "施工总承包（招标中）",
     "contractor_website": "https://jzsc.mohurd.gov.cn",
     "contractor_credit_code": "",
@@ -447,7 +531,13 @@
     "bid_link": "https://www.shcpe.cn",
     "bid_result_link": "",
     "first_seen": "2026-04-19",
-    "notes": "新开工项目"
+    "notes": "新开工项目",
+    "bd_score": 2.7,
+    "bd_score_details": {
+      "volume": 0,
+      "timeliness": 7,
+      "contractor": 2
+    }
   },
   {
     "id": "2824bb6b",
@@ -463,8 +553,8 @@
     "investment": null,
     "area": null,
     "template_estimate": "工业厂房模板需求中上",
-    "bd_priority": 2,
-    "bd_priority_text": "⭐⭐",
+    "bd_priority": 1,
+    "bd_priority_text": "⭐",
     "contractor": "施工总承包（招标中）",
     "contractor_website": "https://jzsc.mohurd.gov.cn",
     "contractor_credit_code": "",
@@ -477,7 +567,13 @@
     "bid_link": "https://www.shcpe.cn",
     "bid_result_link": "",
     "first_seen": "2026-04-19",
-    "notes": "正泰电气扩产，松江区域"
+    "notes": "正泰电气扩产，松江区域",
+    "bd_score": 2.7,
+    "bd_score_details": {
+      "volume": 0,
+      "timeliness": 7,
+      "contractor": 2
+    }
   },
   {
     "id": "3b31461b",
@@ -493,8 +589,8 @@
     "investment": "约3000000万（300亿）",
     "area": null,
     "template_estimate": "超大交通枢纽，模板需求极大",
-    "bd_priority": 3,
-    "bd_priority_text": "⭐⭐⭐",
+    "bd_priority": 2,
+    "bd_priority_text": "⭐⭐",
     "contractor": "中铁上海工程局 + 上海建工集团联合体",
     "contractor_website": "https://www.scg.com.cn",
     "contractor_credit_code": "91310000607220683D",
@@ -507,7 +603,13 @@
     "bid_link": "https://www.shcpe.cn",
     "bid_result_link": "https://sh.bidcenter.com.cn",
     "first_seen": "2026-04-19",
-    "notes": "300亿级超大型枢纽，工期长，模板持续需求"
+    "notes": "300亿级超大型枢纽，工期长，模板持续需求",
+    "bd_score": 7.6,
+    "bd_score_details": {
+      "volume": 10,
+      "timeliness": 2,
+      "contractor": 10
+    }
   },
   {
     "id": "1de37795",
@@ -523,8 +625,8 @@
     "investment": "约5000000万（500亿）",
     "area": null,
     "template_estimate": "超大型航站楼，模板需求极大",
-    "bd_priority": 3,
-    "bd_priority_text": "⭐⭐⭐",
+    "bd_priority": 2,
+    "bd_priority_text": "⭐⭐",
     "contractor": "上海建工集团股份有限公司",
     "contractor_website": "https://www.scg.com.cn",
     "contractor_credit_code": "91310000607220683D",
@@ -537,7 +639,13 @@
     "bid_link": "https://service.shanghai.gov.cn",
     "bid_result_link": "https://www.scg.com.cn",
     "first_seen": "2026-04-19",
-    "notes": "500亿级超大型项目，在建中，模板持续需求"
+    "notes": "500亿级超大型项目，在建中，模板持续需求",
+    "bd_score": 7.6,
+    "bd_score_details": {
+      "volume": 10,
+      "timeliness": 2,
+      "contractor": 10
+    }
   },
   {
     "id": "1f14f86d",
@@ -553,8 +661,8 @@
     "investment": "约3000000万（300亿）",
     "area": null,
     "template_estimate": "超大高铁枢纽，模板需求极大",
-    "bd_priority": 3,
-    "bd_priority_text": "⭐⭐⭐",
+    "bd_priority": 2,
+    "bd_priority_text": "⭐⭐",
     "contractor": "上海建工 + 中铁二十四局联合体",
     "contractor_website": "https://www.scg.com.cn",
     "contractor_credit_code": "91310000607220683D",
@@ -567,7 +675,13 @@
     "bid_link": "https://www.shexgrp.com",
     "bid_result_link": "https://www.scg.com.cn/scg_jtyw/2024-12-09/Detail_237328.htm",
     "first_seen": "2026-04-19",
-    "notes": "58.5亿中标，超大枢纽项目"
+    "notes": "58.5亿中标，超大枢纽项目",
+    "bd_score": 7.6,
+    "bd_score_details": {
+      "volume": 10,
+      "timeliness": 2,
+      "contractor": 10
+    }
   },
   {
     "id": "180b0b35",
@@ -583,8 +697,8 @@
     "investment": null,
     "area": null,
     "template_estimate": "大学扩建，模板需求大",
-    "bd_priority": 3,
-    "bd_priority_text": "⭐⭐⭐",
+    "bd_priority": 1,
+    "bd_priority_text": "⭐",
     "contractor": "上海建工集团股份有限公司",
     "contractor_website": "https://www.scg.com.cn",
     "contractor_credit_code": "91310000607220683D",
@@ -597,7 +711,13 @@
     "bid_link": "https://www.shexgrp.com/jyzx/001001/001001001/001001001001/20250228/8175488.html",
     "bid_result_link": "https://www.shexgrp.com/jyzx/001001/001001001/001001001001/20250228/8175488.html",
     "first_seen": "2026-04-19",
-    "notes": "上海大学扩建，教学楼+宿舍"
+    "notes": "上海大学扩建，教学楼+宿舍",
+    "bd_score": 4.2,
+    "bd_score_details": {
+      "volume": 0,
+      "timeliness": 4,
+      "contractor": 10
+    }
   },
   {
     "id": "c2a1c74f",
@@ -613,8 +733,8 @@
     "investment": null,
     "area": null,
     "template_estimate": "国家级医学中心，模板需求极大",
-    "bd_priority": 3,
-    "bd_priority_text": "⭐⭐⭐",
+    "bd_priority": 1,
+    "bd_priority_text": "⭐",
     "contractor": "中国建筑第二工程局有限公司（华东公司）",
     "contractor_website": "https://www.cscec.com",
     "contractor_credit_code": "91110000100011033P",
@@ -627,7 +747,13 @@
     "bid_link": "https://www.shcpe.cn",
     "bid_result_link": "https://www.cscec.com/xwzx_new/zqydt_new/202504/3869031.html",
     "first_seen": "2026-04-19",
-    "notes": "中建二局承建，国家医学中心级别，模板需求极大"
+    "notes": "中建二局承建，国家医学中心级别，模板需求极大",
+    "bd_score": 3.6,
+    "bd_score_details": {
+      "volume": 0,
+      "timeliness": 2,
+      "contractor": 10
+    }
   },
   {
     "id": "ea0e4d0b",
@@ -643,8 +769,8 @@
     "investment": null,
     "area": null,
     "template_estimate": "航空制造基地厂房模板需求大",
-    "bd_priority": 3,
-    "bd_priority_text": "⭐⭐⭐",
+    "bd_priority": 1,
+    "bd_priority_text": "⭐",
     "contractor": "施工总承包",
     "contractor_website": "https://jzsc.mohurd.gov.cn",
     "contractor_credit_code": "",
@@ -657,7 +783,13 @@
     "bid_link": "https://www.shcpe.cn",
     "bid_result_link": "",
     "first_seen": "2026-04-19",
-    "notes": "国产大发动机基地，大型厂房群"
+    "notes": "国产大发动机基地，大型厂房群",
+    "bd_score": 2.1,
+    "bd_score_details": {
+      "volume": 0,
+      "timeliness": 5,
+      "contractor": 2
+    }
   },
   {
     "id": "26de6986",
@@ -673,8 +805,8 @@
     "investment": null,
     "area": null,
     "template_estimate": "飞机制造总装基地，模板需求大",
-    "bd_priority": 3,
-    "bd_priority_text": "⭐⭐⭐",
+    "bd_priority": 1,
+    "bd_priority_text": "⭐",
     "contractor": "施工总承包",
     "contractor_website": "https://jzsc.mohurd.gov.cn",
     "contractor_credit_code": "",
@@ -687,7 +819,13 @@
     "bid_link": "https://www.shcpe.cn",
     "bid_result_link": "",
     "first_seen": "2026-04-19",
-    "notes": "C919总装基地扩建，超大厂房群"
+    "notes": "C919总装基地扩建，超大厂房群",
+    "bd_score": 2.1,
+    "bd_score_details": {
+      "volume": 0,
+      "timeliness": 5,
+      "contractor": 2
+    }
   },
   {
     "id": "095f90ea",
@@ -717,7 +855,13 @@
     "bid_link": "https://www.shcpe.cn",
     "bid_result_link": "",
     "first_seen": "2026-04-19",
-    "notes": "造船基地，钢结构为主，模板需求有限"
+    "notes": "造船基地，钢结构为主，模板需求有限",
+    "bd_score": 2.1,
+    "bd_score_details": {
+      "volume": 0,
+      "timeliness": 5,
+      "contractor": 2
+    }
   },
   {
     "id": "9ab8eb45",
@@ -733,8 +877,8 @@
     "investment": null,
     "area": null,
     "template_estimate": "大型新能源基地厂房模板需求大",
-    "bd_priority": 3,
-    "bd_priority_text": "⭐⭐⭐",
+    "bd_priority": 1,
+    "bd_priority_text": "⭐",
     "contractor": "宁德时代新能源科技股份有限公司（业主）",
     "contractor_website": "https://www.catl.com",
     "contractor_credit_code": "91350100705292270Q",
@@ -747,7 +891,13 @@
     "bid_link": "https://ciac.zjw.sh.gov.cn",
     "bid_result_link": "https://jzsc.mohurd.gov.cn",
     "first_seen": "2026-04-19",
-    "notes": "宁德时代大型基地，厂房面积大，模板需求大"
+    "notes": "宁德时代大型基地，厂房面积大，模板需求大",
+    "bd_score": 2.1,
+    "bd_score_details": {
+      "volume": 0,
+      "timeliness": 5,
+      "contractor": 2
+    }
   },
   {
     "id": "c5e6b77f",
@@ -763,8 +913,8 @@
     "investment": null,
     "area": null,
     "template_estimate": "大型工厂二期扩建模板需求中上",
-    "bd_priority": 2,
-    "bd_priority_text": "⭐⭐",
+    "bd_priority": 1,
+    "bd_priority_text": "⭐",
     "contractor": "特斯拉（上海）有限公司（业主）",
     "contractor_website": "https://www.tesla.cn",
     "contractor_credit_code": "",
@@ -777,7 +927,13 @@
     "bid_link": "https://ciac.zjw.sh.gov.cn",
     "bid_result_link": "https://jzsc.mohurd.gov.cn",
     "first_seen": "2026-04-19",
-    "notes": "特斯拉二期，关注施工总承包招标"
+    "notes": "特斯拉二期，关注施工总承包招标",
+    "bd_score": 2.1,
+    "bd_score_details": {
+      "volume": 0,
+      "timeliness": 5,
+      "contractor": 2
+    }
   },
   {
     "id": "ef7e760b",
@@ -793,8 +949,8 @@
     "investment": null,
     "area": null,
     "template_estimate": "半导体洁净厂房模板需求大",
-    "bd_priority": 3,
-    "bd_priority_text": "⭐⭐⭐",
+    "bd_priority": 1,
+    "bd_priority_text": "⭐",
     "contractor": "施工总承包",
     "contractor_website": "https://jzsc.mohurd.gov.cn",
     "contractor_credit_code": "",
@@ -807,7 +963,13 @@
     "bid_link": "https://www.shcpe.cn",
     "bid_result_link": "",
     "first_seen": "2026-04-19",
-    "notes": "半导体洁净厂房，结构复杂"
+    "notes": "半导体洁净厂房，结构复杂",
+    "bd_score": 2.1,
+    "bd_score_details": {
+      "volume": 0,
+      "timeliness": 5,
+      "contractor": 2
+    }
   },
   {
     "id": "282271ec",
@@ -823,8 +985,8 @@
     "investment": null,
     "area": null,
     "template_estimate": "半导体厂房模板需求大",
-    "bd_priority": 3,
-    "bd_priority_text": "⭐⭐⭐",
+    "bd_priority": 1,
+    "bd_priority_text": "⭐",
     "contractor": "施工总承包",
     "contractor_website": "https://jzsc.mohurd.gov.cn",
     "contractor_credit_code": "",
@@ -837,7 +999,13 @@
     "bid_link": "https://www.shcpe.cn",
     "bid_result_link": "",
     "first_seen": "2026-04-19",
-    "notes": "12英寸晶圆厂，大型洁净厂房"
+    "notes": "12英寸晶圆厂，大型洁净厂房",
+    "bd_score": 2.1,
+    "bd_score_details": {
+      "volume": 0,
+      "timeliness": 5,
+      "contractor": 2
+    }
   },
   {
     "id": "94576806",
@@ -853,8 +1021,8 @@
     "investment": null,
     "area": null,
     "template_estimate": "封测厂房模板需求中等",
-    "bd_priority": 2,
-    "bd_priority_text": "⭐⭐",
+    "bd_priority": 1,
+    "bd_priority_text": "⭐",
     "contractor": "施工总承包",
     "contractor_website": "https://jzsc.mohurd.gov.cn",
     "contractor_credit_code": "",
@@ -867,7 +1035,13 @@
     "bid_link": "https://www.shcpe.cn",
     "bid_result_link": "",
     "first_seen": "2026-04-19",
-    "notes": "车规级封测，洁净厂房"
+    "notes": "车规级封测，洁净厂房",
+    "bd_score": 2.1,
+    "bd_score_details": {
+      "volume": 0,
+      "timeliness": 5,
+      "contractor": 2
+    }
   },
   {
     "id": "c2342161",
@@ -897,7 +1071,13 @@
     "bid_link": "https://www.shcpe.cn",
     "bid_result_link": "",
     "first_seen": "2026-04-19",
-    "notes": "大科学装置，特殊结构，模板需求有限"
+    "notes": "大科学装置，特殊结构，模板需求有限",
+    "bd_score": 2.1,
+    "bd_score_details": {
+      "volume": 0,
+      "timeliness": 5,
+      "contractor": 2
+    }
   },
   {
     "id": "4d1a548b",
@@ -913,8 +1093,8 @@
     "investment": null,
     "area": null,
     "template_estimate": "研发基地厂房模板需求中等",
-    "bd_priority": 2,
-    "bd_priority_text": "⭐⭐",
+    "bd_priority": 1,
+    "bd_priority_text": "⭐",
     "contractor": "施工总承包",
     "contractor_website": "https://jzsc.mohurd.gov.cn",
     "contractor_credit_code": "",
@@ -927,7 +1107,13 @@
     "bid_link": "https://www.shcpe.cn",
     "bid_result_link": "",
     "first_seen": "2026-04-19",
-    "notes": "联影医疗是国产医疗设备龙头"
+    "notes": "联影医疗是国产医疗设备龙头",
+    "bd_score": 2.1,
+    "bd_score_details": {
+      "volume": 0,
+      "timeliness": 5,
+      "contractor": 2
+    }
   },
   {
     "id": "3fef0539",
@@ -943,8 +1129,8 @@
     "investment": null,
     "area": null,
     "template_estimate": "大型综合开发模板需求大",
-    "bd_priority": 3,
-    "bd_priority_text": "⭐⭐⭐",
+    "bd_priority": 1,
+    "bd_priority_text": "⭐",
     "contractor": "施工总承包（多标段）",
     "contractor_website": "https://jzsc.mohurd.gov.cn",
     "contractor_credit_code": "",
@@ -957,7 +1143,13 @@
     "bid_link": "https://www.shcpe.cn",
     "bid_result_link": "",
     "first_seen": "2026-04-19",
-    "notes": "徐汇滨江大型综合开发，多栋高层建筑"
+    "notes": "徐汇滨江大型综合开发，多栋高层建筑",
+    "bd_score": 2.1,
+    "bd_score_details": {
+      "volume": 0,
+      "timeliness": 5,
+      "contractor": 2
+    }
   },
   {
     "id": "8d316083",
@@ -973,8 +1165,8 @@
     "investment": null,
     "area": null,
     "template_estimate": "总部大楼模板需求中等",
-    "bd_priority": 2,
-    "bd_priority_text": "⭐⭐",
+    "bd_priority": 1,
+    "bd_priority_text": "⭐",
     "contractor": "施工总承包",
     "contractor_website": "https://jzsc.mohurd.gov.cn",
     "contractor_credit_code": "",
@@ -987,7 +1179,13 @@
     "bid_link": "https://www.shcpe.cn",
     "bid_result_link": "",
     "first_seen": "2026-04-19",
-    "notes": "美团上海科技中心"
+    "notes": "美团上海科技中心",
+    "bd_score": 2.1,
+    "bd_score_details": {
+      "volume": 0,
+      "timeliness": 5,
+      "contractor": 2
+    }
   },
   {
     "id": "d4accbab",
@@ -1003,8 +1201,8 @@
     "investment": null,
     "area": null,
     "template_estimate": "大型城市更新模板需求大",
-    "bd_priority": 3,
-    "bd_priority_text": "⭐⭐⭐",
+    "bd_priority": 1,
+    "bd_priority_text": "⭐",
     "contractor": "上海建工 + 上海城投 + 上实集团联合体",
     "contractor_website": "https://www.scg.com.cn",
     "contractor_credit_code": "91310000607220683D",
@@ -1017,7 +1215,13 @@
     "bid_link": "https://zjw.sh.gov.cn",
     "bid_result_link": "https://jzsc.mohurd.gov.cn",
     "first_seen": "2026-04-19",
-    "notes": "北外滩核心区大型综合开发"
+    "notes": "北外滩核心区大型综合开发",
+    "bd_score": 4.5,
+    "bd_score_details": {
+      "volume": 0,
+      "timeliness": 5,
+      "contractor": 10
+    }
   },
   {
     "id": "fccd0be4",
@@ -1033,8 +1237,8 @@
     "investment": null,
     "area": null,
     "template_estimate": "大学扩建模板需求大",
-    "bd_priority": 3,
-    "bd_priority_text": "⭐⭐⭐",
+    "bd_priority": 1,
+    "bd_priority_text": "⭐",
     "contractor": "施工总承包",
     "contractor_website": "https://jzsc.mohurd.gov.cn",
     "contractor_credit_code": "",
@@ -1047,7 +1251,13 @@
     "bid_link": "https://www.shcpe.cn",
     "bid_result_link": "",
     "first_seen": "2026-04-19",
-    "notes": "上科大二期，张江科学城核心"
+    "notes": "上科大二期，张江科学城核心",
+    "bd_score": 2.1,
+    "bd_score_details": {
+      "volume": 0,
+      "timeliness": 5,
+      "contractor": 2
+    }
   },
   {
     "id": "e0385cf0",
@@ -1063,8 +1273,8 @@
     "investment": null,
     "area": null,
     "template_estimate": "新校区模板需求大",
-    "bd_priority": 3,
-    "bd_priority_text": "⭐⭐⭐",
+    "bd_priority": 1,
+    "bd_priority_text": "⭐",
     "contractor": "施工总承包",
     "contractor_website": "https://jzsc.mohurd.gov.cn",
     "contractor_credit_code": "",
@@ -1077,7 +1287,13 @@
     "bid_link": "https://www.shcpe.cn",
     "bid_result_link": "",
     "first_seen": "2026-04-19",
-    "notes": "临港大学城新校区，教学楼+宿舍+图书馆"
+    "notes": "临港大学城新校区，教学楼+宿舍+图书馆",
+    "bd_score": 2.1,
+    "bd_score_details": {
+      "volume": 0,
+      "timeliness": 5,
+      "contractor": 2
+    }
   },
   {
     "id": "1f4b5db5",
@@ -1093,8 +1309,8 @@
     "investment": null,
     "area": null,
     "template_estimate": "大学扩建模板需求中上",
-    "bd_priority": 2,
-    "bd_priority_text": "⭐⭐",
+    "bd_priority": 1,
+    "bd_priority_text": "⭐",
     "contractor": "施工总承包",
     "contractor_website": "https://jzsc.mohurd.gov.cn",
     "contractor_credit_code": "",
@@ -1107,7 +1323,13 @@
     "bid_link": "https://www.shcpe.cn",
     "bid_result_link": "",
     "first_seen": "2026-04-19",
-    "notes": "松江大学城三期扩建"
+    "notes": "松江大学城三期扩建",
+    "bd_score": 2.1,
+    "bd_score_details": {
+      "volume": 0,
+      "timeliness": 5,
+      "contractor": 2
+    }
   },
   {
     "id": "0dfedc8e",
@@ -1123,8 +1345,8 @@
     "investment": null,
     "area": null,
     "template_estimate": "新建校区模板需求中等",
-    "bd_priority": 2,
-    "bd_priority_text": "⭐⭐",
+    "bd_priority": 1,
+    "bd_priority_text": "⭐",
     "contractor": "施工总承包",
     "contractor_website": "https://jzsc.mohurd.gov.cn",
     "contractor_credit_code": "",
@@ -1137,7 +1359,13 @@
     "bid_link": "https://www.shcpe.cn",
     "bid_result_link": "",
     "first_seen": "2026-04-19",
-    "notes": "新建高职院校"
+    "notes": "新建高职院校",
+    "bd_score": 2.1,
+    "bd_score_details": {
+      "volume": 0,
+      "timeliness": 5,
+      "contractor": 2
+    }
   },
   {
     "id": "9cf8cf3f",
@@ -1153,8 +1381,8 @@
     "investment": null,
     "area": null,
     "template_estimate": "校区改扩建模板需求中等",
-    "bd_priority": 2,
-    "bd_priority_text": "⭐⭐",
+    "bd_priority": 1,
+    "bd_priority_text": "⭐",
     "contractor": "施工总承包",
     "contractor_website": "https://jzsc.mohurd.gov.cn",
     "contractor_credit_code": "",
@@ -1167,7 +1395,13 @@
     "bid_link": "https://www.shcpe.cn",
     "bid_result_link": "",
     "first_seen": "2026-04-19",
-    "notes": "华政老校区改造"
+    "notes": "华政老校区改造",
+    "bd_score": 2.1,
+    "bd_score_details": {
+      "volume": 0,
+      "timeliness": 5,
+      "contractor": 2
+    }
   },
   {
     "id": "bf5d8e28",
@@ -1183,8 +1417,8 @@
     "investment": null,
     "area": null,
     "template_estimate": "医院扩建模板需求中上",
-    "bd_priority": 2,
-    "bd_priority_text": "⭐⭐",
+    "bd_priority": 1,
+    "bd_priority_text": "⭐",
     "contractor": "施工总承包",
     "contractor_website": "https://jzsc.mohurd.gov.cn",
     "contractor_credit_code": "",
@@ -1197,7 +1431,13 @@
     "bid_link": "https://www.shcpe.cn",
     "bid_result_link": "",
     "first_seen": "2026-04-19",
-    "notes": "眼耳鼻喉科医院二期"
+    "notes": "眼耳鼻喉科医院二期",
+    "bd_score": 2.1,
+    "bd_score_details": {
+      "volume": 0,
+      "timeliness": 5,
+      "contractor": 2
+    }
   },
   {
     "id": "74997762",
@@ -1213,8 +1453,8 @@
     "investment": null,
     "area": null,
     "template_estimate": "市域铁路以隧道/桥梁为主",
-    "bd_priority": 2,
-    "bd_priority_text": "⭐⭐",
+    "bd_priority": 1,
+    "bd_priority_text": "⭐",
     "contractor": "中交隧道工程局、上海建工等",
     "contractor_website": "https://www.scg.com.cn",
     "contractor_credit_code": "",
@@ -1227,7 +1467,13 @@
     "bid_link": "https://www.shcpe.cn",
     "bid_result_link": "",
     "first_seen": "2026-04-19",
-    "notes": "在建多年，剩余标段可关注"
+    "notes": "在建多年，剩余标段可关注",
+    "bd_score": 1.2,
+    "bd_score_details": {
+      "volume": 0,
+      "timeliness": 2,
+      "contractor": 2
+    }
   },
   {
     "id": "0d8c9b4c",
@@ -1243,8 +1489,8 @@
     "investment": null,
     "area": null,
     "template_estimate": "市域铁路车站模板需求中等",
-    "bd_priority": 2,
-    "bd_priority_text": "⭐⭐",
+    "bd_priority": 1,
+    "bd_priority_text": "⭐",
     "contractor": "施工总承包（多标段）",
     "contractor_website": "https://jzsc.mohurd.gov.cn",
     "contractor_credit_code": "",
@@ -1257,7 +1503,13 @@
     "bid_link": "https://www.shcpe.cn",
     "bid_result_link": "",
     "first_seen": "2026-04-19",
-    "notes": "多标段施工中"
+    "notes": "多标段施工中",
+    "bd_score": 2.1,
+    "bd_score_details": {
+      "volume": 0,
+      "timeliness": 5,
+      "contractor": 2
+    }
   },
   {
     "id": "3a891a2c",
@@ -1273,8 +1525,8 @@
     "investment": null,
     "area": null,
     "template_estimate": "地铁车站模板需求中等",
-    "bd_priority": 2,
-    "bd_priority_text": "⭐⭐",
+    "bd_priority": 1,
+    "bd_priority_text": "⭐",
     "contractor": "施工总承包（多标段）",
     "contractor_website": "https://jzsc.mohurd.gov.cn",
     "contractor_credit_code": "",
@@ -1287,7 +1539,13 @@
     "bid_link": "https://www.shcpe.cn",
     "bid_result_link": "",
     "first_seen": "2026-04-19",
-    "notes": "新建地铁线路"
+    "notes": "新建地铁线路",
+    "bd_score": 2.1,
+    "bd_score_details": {
+      "volume": 0,
+      "timeliness": 5,
+      "contractor": 2
+    }
   },
   {
     "id": "622809fc",
@@ -1303,8 +1561,8 @@
     "investment": null,
     "area": null,
     "template_estimate": "地铁车站模板需求中等",
-    "bd_priority": 2,
-    "bd_priority_text": "⭐⭐",
+    "bd_priority": 1,
+    "bd_priority_text": "⭐",
     "contractor": "施工总承包（多标段）",
     "contractor_website": "https://jzsc.mohurd.gov.cn",
     "contractor_credit_code": "",
@@ -1317,7 +1575,13 @@
     "bid_link": "https://www.shcpe.cn",
     "bid_result_link": "",
     "first_seen": "2026-04-19",
-    "notes": "20号线东段"
+    "notes": "20号线东段",
+    "bd_score": 2.1,
+    "bd_score_details": {
+      "volume": 0,
+      "timeliness": 5,
+      "contractor": 2
+    }
   },
   {
     "id": "9d79ba51",
@@ -1333,8 +1597,8 @@
     "investment": null,
     "area": null,
     "template_estimate": "地铁车站模板需求中等",
-    "bd_priority": 2,
-    "bd_priority_text": "⭐⭐",
+    "bd_priority": 1,
+    "bd_priority_text": "⭐",
     "contractor": "上海城建市政工程（集团）有限公司",
     "contractor_website": "https://www.scg.com.cn",
     "contractor_credit_code": "",
@@ -1347,7 +1611,13 @@
     "bid_link": "https://www.shcpe.cn",
     "bid_result_link": "",
     "first_seen": "2026-04-19",
-    "notes": "隶属上海建工体系"
+    "notes": "隶属上海建工体系",
+    "bd_score": 1.2,
+    "bd_score_details": {
+      "volume": 0,
+      "timeliness": 2,
+      "contractor": 2
+    }
   },
   {
     "id": "2e32a71c",
@@ -1363,8 +1633,8 @@
     "investment": null,
     "area": null,
     "template_estimate": "地铁车站+隧道模板需求中等",
-    "bd_priority": 2,
-    "bd_priority_text": "⭐⭐",
+    "bd_priority": 1,
+    "bd_priority_text": "⭐",
     "contractor": "上海隧道工程股份有限公司等",
     "contractor_website": "https://jzsc.mohurd.gov.cn",
     "contractor_credit_code": "",
@@ -1377,7 +1647,13 @@
     "bid_link": "https://www.shcpe.cn",
     "bid_result_link": "",
     "first_seen": "2026-04-19",
-    "notes": "穿越市区南北大动脉"
+    "notes": "穿越市区南北大动脉",
+    "bd_score": 1.2,
+    "bd_score_details": {
+      "volume": 0,
+      "timeliness": 2,
+      "contractor": 2
+    }
   },
   {
     "id": "7c384f2c",
@@ -1393,8 +1669,8 @@
     "investment": null,
     "area": null,
     "template_estimate": "地铁车站模板需求中等",
-    "bd_priority": 2,
-    "bd_priority_text": "⭐⭐",
+    "bd_priority": 1,
+    "bd_priority_text": "⭐",
     "contractor": "施工总承包（多标段）",
     "contractor_website": "https://jzsc.mohurd.gov.cn",
     "contractor_credit_code": "",
@@ -1407,7 +1683,13 @@
     "bid_link": "https://www.shcpe.cn",
     "bid_result_link": "",
     "first_seen": "2026-04-19",
-    "notes": "新延伸段"
+    "notes": "新延伸段",
+    "bd_score": 2.1,
+    "bd_score_details": {
+      "volume": 0,
+      "timeliness": 5,
+      "contractor": 2
+    }
   },
   {
     "id": "6c6d7512",
@@ -1423,8 +1705,8 @@
     "investment": null,
     "area": null,
     "template_estimate": "地铁车站模板需求中等",
-    "bd_priority": 2,
-    "bd_priority_text": "⭐⭐",
+    "bd_priority": 1,
+    "bd_priority_text": "⭐",
     "contractor": "施工总承包（多标段）",
     "contractor_website": "https://jzsc.mohurd.gov.cn",
     "contractor_credit_code": "",
@@ -1437,7 +1719,13 @@
     "bid_link": "https://www.shcpe.cn",
     "bid_result_link": "",
     "first_seen": "2026-04-19",
-    "notes": "延伸至松江"
+    "notes": "延伸至松江",
+    "bd_score": 2.1,
+    "bd_score_details": {
+      "volume": 0,
+      "timeliness": 5,
+      "contractor": 2
+    }
   },
   {
     "id": "40545f1c",
@@ -1453,8 +1741,8 @@
     "investment": "500000万+",
     "area": null,
     "template_estimate": "大型水处理构筑物模板需求大",
-    "bd_priority": 3,
-    "bd_priority_text": "⭐⭐⭐",
+    "bd_priority": 2,
+    "bd_priority_text": "⭐⭐",
     "contractor": "上海建工集团（四建集团施工）",
     "contractor_website": "https://www.scg.com.cn",
     "contractor_credit_code": "91310000607220683D",
@@ -1467,7 +1755,13 @@
     "bid_link": "https://www.shcpe.cn",
     "bid_result_link": "https://www.h2o-china.com/news/331036.html",
     "first_seen": "2026-04-19",
-    "notes": "50亿+大型市政工程，大量水池构筑物需模板"
+    "notes": "50亿+大型市政工程，大量水池构筑物需模板",
+    "bd_score": 7.6,
+    "bd_score_details": {
+      "volume": 10,
+      "timeliness": 2,
+      "contractor": 10
+    }
   },
   {
     "id": "debe4929",
@@ -1483,8 +1777,8 @@
     "investment": null,
     "area": null,
     "template_estimate": "快速路桥梁模板需求中上",
-    "bd_priority": 2,
-    "bd_priority_text": "⭐⭐",
+    "bd_priority": 1,
+    "bd_priority_text": "⭐",
     "contractor": "施工总承包",
     "contractor_website": "https://jzsc.mohurd.gov.cn",
     "contractor_credit_code": "",
@@ -1497,7 +1791,13 @@
     "bid_link": "https://www.shcpe.cn",
     "bid_result_link": "",
     "first_seen": "2026-04-19",
-    "notes": "城市快速路+高架"
+    "notes": "城市快速路+高架",
+    "bd_score": 2.1,
+    "bd_score_details": {
+      "volume": 0,
+      "timeliness": 5,
+      "contractor": 2
+    }
   },
   {
     "id": "5ffa935f",
@@ -1513,8 +1813,8 @@
     "investment": null,
     "area": null,
     "template_estimate": "铁路桥梁模板需求中等",
-    "bd_priority": 2,
-    "bd_priority_text": "⭐⭐",
+    "bd_priority": 1,
+    "bd_priority_text": "⭐",
     "contractor": "施工总承包（多标段）",
     "contractor_website": "https://jzsc.mohurd.gov.cn",
     "contractor_credit_code": "",
@@ -1527,7 +1827,13 @@
     "bid_link": "https://www.shcpe.cn",
     "bid_result_link": "",
     "first_seen": "2026-04-19",
-    "notes": "铁路工程"
+    "notes": "铁路工程",
+    "bd_score": 2.1,
+    "bd_score_details": {
+      "volume": 0,
+      "timeliness": 5,
+      "contractor": 2
+    }
   },
   {
     "id": "54dc4e24",
@@ -1543,8 +1849,8 @@
     "investment": null,
     "area": null,
     "template_estimate": "住宅高层模板需求大（标准层重复）",
-    "bd_priority": 3,
-    "bd_priority_text": "⭐⭐⭐",
+    "bd_priority": 1,
+    "bd_priority_text": "⭐",
     "contractor": "各区城投/安居集团/万科/华润等",
     "contractor_website": "https://jzsc.mohurd.gov.cn",
     "contractor_credit_code": "",
@@ -1557,7 +1863,13 @@
     "bid_link": "https://service.shanghai.gov.cn/XxgkProject",
     "bid_result_link": "https://service.shanghai.gov.cn/XxgkProject",
     "first_seen": "2026-04-19",
-    "notes": "全市各区持续在建，标准层模板用量大、周转快，优质客户"
+    "notes": "全市各区持续在建，标准层模板用量大、周转快，优质客户",
+    "bd_score": 2.1,
+    "bd_score_details": {
+      "volume": 0,
+      "timeliness": 5,
+      "contractor": 2
+    }
   },
   {
     "id": "c9bd15d9",
@@ -1573,8 +1885,8 @@
     "investment": null,
     "area": null,
     "template_estimate": "博物馆建筑模板需求中等",
-    "bd_priority": 2,
-    "bd_priority_text": "⭐⭐",
+    "bd_priority": 1,
+    "bd_priority_text": "⭐",
     "contractor": "施工总承包",
     "contractor_website": "https://jzsc.mohurd.gov.cn",
     "contractor_credit_code": "",
@@ -1587,7 +1899,13 @@
     "bid_link": "https://www.shcpe.cn",
     "bid_result_link": "",
     "first_seen": "2026-04-19",
-    "notes": "上海工业博物馆新馆"
+    "notes": "上海工业博物馆新馆",
+    "bd_score": 2.1,
+    "bd_score_details": {
+      "volume": 0,
+      "timeliness": 5,
+      "contractor": 2
+    }
   },
   {
     "id": "8b84fc3a",
@@ -1603,8 +1921,8 @@
     "investment": null,
     "area": null,
     "template_estimate": "医院建筑模板需求中上",
-    "bd_priority": 2,
-    "bd_priority_text": "⭐⭐",
+    "bd_priority": 1,
+    "bd_priority_text": "⭐",
     "contractor": "施工总承包",
     "contractor_website": "https://jzsc.mohurd.gov.cn",
     "contractor_credit_code": "",
@@ -1617,7 +1935,13 @@
     "bid_link": "https://www.shcpe.cn",
     "bid_result_link": "",
     "first_seen": "2026-04-19",
-    "notes": "岳阳医院松江新院区"
+    "notes": "岳阳医院松江新院区",
+    "bd_score": 2.1,
+    "bd_score_details": {
+      "volume": 0,
+      "timeliness": 5,
+      "contractor": 2
+    }
   },
   {
     "id": "7dab49c0",
@@ -1633,8 +1957,8 @@
     "investment": null,
     "area": null,
     "template_estimate": "医院扩建模板需求中等",
-    "bd_priority": 2,
-    "bd_priority_text": "⭐⭐",
+    "bd_priority": 1,
+    "bd_priority_text": "⭐",
     "contractor": "施工总承包",
     "contractor_website": "https://jzsc.mohurd.gov.cn",
     "contractor_credit_code": "",
@@ -1647,7 +1971,13 @@
     "bid_link": "https://www.shcpe.cn",
     "bid_result_link": "",
     "first_seen": "2026-04-19",
-    "notes": "龙华医院航头院区"
+    "notes": "龙华医院航头院区",
+    "bd_score": 2.1,
+    "bd_score_details": {
+      "volume": 0,
+      "timeliness": 5,
+      "contractor": 2
+    }
   },
   {
     "id": "87a30a04",
@@ -1663,8 +1993,8 @@
     "investment": null,
     "area": null,
     "template_estimate": "特殊医院模板需求中上",
-    "bd_priority": 2,
-    "bd_priority_text": "⭐⭐",
+    "bd_priority": 1,
+    "bd_priority_text": "⭐",
     "contractor": "施工总承包",
     "contractor_website": "https://jzsc.mohurd.gov.cn",
     "contractor_credit_code": "",
@@ -1677,7 +2007,13 @@
     "bid_link": "https://www.shcpe.cn",
     "bid_result_link": "",
     "first_seen": "2026-04-19",
-    "notes": "含特殊防辐射结构"
+    "notes": "含特殊防辐射结构",
+    "bd_score": 2.1,
+    "bd_score_details": {
+      "volume": 0,
+      "timeliness": 5,
+      "contractor": 2
+    }
   },
   {
     "id": "b14204e7",
@@ -1693,8 +2029,8 @@
     "investment": null,
     "area": null,
     "template_estimate": "半导体洁净厂房，模板需求大",
-    "bd_priority": 3,
-    "bd_priority_text": "⭐⭐⭐",
+    "bd_priority": 1,
+    "bd_priority_text": "⭐",
     "contractor": "施工总承包",
     "contractor_website": "https://jzsc.mohurd.gov.cn",
     "contractor_credit_code": "",
@@ -1707,7 +2043,13 @@
     "bid_link": "https://www.shanghai.gov.cn/nw48306/20260226/81f6559887674c8bb40402a4f1428953.html",
     "bid_result_link": "",
     "first_seen": "2026-04-20",
-    "notes": "先进逻辑制程300mm硅片，全自动洁净厂房，模板需求大"
+    "notes": "先进逻辑制程300mm硅片，全自动洁净厂房，模板需求大",
+    "bd_score": 2.1,
+    "bd_score_details": {
+      "volume": 0,
+      "timeliness": 5,
+      "contractor": 2
+    }
   },
   {
     "id": "14d1d215",
@@ -1723,8 +2065,8 @@
     "investment": null,
     "area": null,
     "template_estimate": "工业厂房模板需求中等",
-    "bd_priority": 2,
-    "bd_priority_text": "⭐⭐",
+    "bd_priority": 1,
+    "bd_priority_text": "⭐",
     "contractor": "施工总承包",
     "contractor_website": "https://jzsc.mohurd.gov.cn",
     "contractor_credit_code": "",
@@ -1737,7 +2079,13 @@
     "bid_link": "https://www.shanghai.gov.cn/nw48306/20260226/81f6559887674c8bb40402a4f1428953.html",
     "bid_result_link": "",
     "first_seen": "2026-04-20",
-    "notes": "集成电路材料工厂，松江区"
+    "notes": "集成电路材料工厂，松江区",
+    "bd_score": 2.1,
+    "bd_score_details": {
+      "volume": 0,
+      "timeliness": 5,
+      "contractor": 2
+    }
   },
   {
     "id": "581e009e",
@@ -1753,8 +2101,8 @@
     "investment": null,
     "area": null,
     "template_estimate": "特种洁净厂房，模板需求中上",
-    "bd_priority": 2,
-    "bd_priority_text": "⭐⭐",
+    "bd_priority": 1,
+    "bd_priority_text": "⭐",
     "contractor": "施工总承包",
     "contractor_website": "https://jzsc.mohurd.gov.cn",
     "contractor_credit_code": "",
@@ -1767,7 +2115,13 @@
     "bid_link": "https://www.shanghai.gov.cn/nw48306/20260226/81f6559887674c8bb40402a4f1428953.html",
     "bid_result_link": "",
     "first_seen": "2026-04-20",
-    "notes": "AR眼镜晶圆厂，光学洁净厂房"
+    "notes": "AR眼镜晶圆厂，光学洁净厂房",
+    "bd_score": 2.1,
+    "bd_score_details": {
+      "volume": 0,
+      "timeliness": 5,
+      "contractor": 2
+    }
   },
   {
     "id": "91a15d86",
@@ -1783,8 +2137,8 @@
     "investment": null,
     "area": null,
     "template_estimate": "300mm晶圆厂洁净厂房，模板需求大",
-    "bd_priority": 3,
-    "bd_priority_text": "⭐⭐⭐",
+    "bd_priority": 1,
+    "bd_priority_text": "⭐",
     "contractor": "施工总承包",
     "contractor_website": "https://jzsc.mohurd.gov.cn",
     "contractor_credit_code": "",
@@ -1797,7 +2151,13 @@
     "bid_link": "https://www.shanghai.gov.cn/nw48306/20260226/81f6559887674c8bb40402a4f1428953.html",
     "bid_result_link": "",
     "first_seen": "2026-04-20",
-    "notes": "300mm大硅片国产替代，大型洁净厂房，重点跟进"
+    "notes": "300mm大硅片国产替代，大型洁净厂房，重点跟进",
+    "bd_score": 2.1,
+    "bd_score_details": {
+      "volume": 0,
+      "timeliness": 5,
+      "contractor": 2
+    }
   },
   {
     "id": "7200655c",
@@ -1813,8 +2173,8 @@
     "investment": null,
     "area": null,
     "template_estimate": "半导体厂房模板需求中上",
-    "bd_priority": 2,
-    "bd_priority_text": "⭐⭐",
+    "bd_priority": 1,
+    "bd_priority_text": "⭐",
     "contractor": "施工总承包",
     "contractor_website": "https://jzsc.mohurd.gov.cn",
     "contractor_credit_code": "",
@@ -1827,7 +2187,13 @@
     "bid_link": "https://www.shanghai.gov.cn/nw48306/20260226/81f6559887674c8bb40402a4f1428953.html",
     "bid_result_link": "",
     "first_seen": "2026-04-20",
-    "notes": "第三代半导体（SiC/GaN），临港"
+    "notes": "第三代半导体（SiC/GaN），临港",
+    "bd_score": 2.1,
+    "bd_score_details": {
+      "volume": 0,
+      "timeliness": 5,
+      "contractor": 2
+    }
   },
   {
     "id": "51ab4360",
@@ -1843,8 +2209,8 @@
     "investment": null,
     "area": null,
     "template_estimate": "半导体厂房模板需求中等",
-    "bd_priority": 2,
-    "bd_priority_text": "⭐⭐",
+    "bd_priority": 1,
+    "bd_priority_text": "⭐",
     "contractor": "施工总承包",
     "contractor_website": "https://jzsc.mohurd.gov.cn",
     "contractor_credit_code": "",
@@ -1857,7 +2223,13 @@
     "bid_link": "https://www.shanghai.gov.cn/nw48306/20260226/81f6559887674c8bb40402a4f1428953.html",
     "bid_result_link": "",
     "first_seen": "2026-04-20",
-    "notes": "碳化硅材料，第三代半导体基础材料"
+    "notes": "碳化硅材料，第三代半导体基础材料",
+    "bd_score": 2.1,
+    "bd_score_details": {
+      "volume": 0,
+      "timeliness": 5,
+      "contractor": 2
+    }
   },
   {
     "id": "59c62f2e",
@@ -1873,8 +2245,8 @@
     "investment": null,
     "area": null,
     "template_estimate": "工业厂房模板需求中等",
-    "bd_priority": 2,
-    "bd_priority_text": "⭐⭐",
+    "bd_priority": 1,
+    "bd_priority_text": "⭐",
     "contractor": "施工总承包",
     "contractor_website": "https://jzsc.mohurd.gov.cn",
     "contractor_credit_code": "",
@@ -1887,7 +2259,13 @@
     "bid_link": "https://www.shanghai.gov.cn/nw48306/20260226/81f6559887674c8bb40402a4f1428953.html",
     "bid_result_link": "",
     "first_seen": "2026-04-20",
-    "notes": "电子靶材产业化，临港"
+    "notes": "电子靶材产业化，临港",
+    "bd_score": 2.1,
+    "bd_score_details": {
+      "volume": 0,
+      "timeliness": 5,
+      "contractor": 2
+    }
   },
   {
     "id": "4671f5ae",
@@ -1903,8 +2281,8 @@
     "investment": null,
     "area": null,
     "template_estimate": "封测厂房模板需求中等",
-    "bd_priority": 2,
-    "bd_priority_text": "⭐⭐",
+    "bd_priority": 1,
+    "bd_priority_text": "⭐",
     "contractor": "施工总承包",
     "contractor_website": "https://jzsc.mohurd.gov.cn",
     "contractor_credit_code": "",
@@ -1917,7 +2295,13 @@
     "bid_link": "https://www.shanghai.gov.cn/nw48306/20260226/81f6559887674c8bb40402a4f1428953.html",
     "bid_result_link": "",
     "first_seen": "2026-04-20",
-    "notes": "LED/光源芯片封测基地"
+    "notes": "LED/光源芯片封测基地",
+    "bd_score": 2.1,
+    "bd_score_details": {
+      "volume": 0,
+      "timeliness": 5,
+      "contractor": 2
+    }
   },
   {
     "id": "852cc605",
@@ -1933,8 +2317,8 @@
     "investment": null,
     "area": null,
     "template_estimate": "航空研发厂房，模板需求中上",
-    "bd_priority": 2,
-    "bd_priority_text": "⭐⭐",
+    "bd_priority": 1,
+    "bd_priority_text": "⭐",
     "contractor": "施工总承包",
     "contractor_website": "https://jzsc.mohurd.gov.cn",
     "contractor_credit_code": "",
@@ -1947,7 +2331,13 @@
     "bid_link": "https://www.shanghai.gov.cn/nw48306/20260226/81f6559887674c8bb40402a4f1428953.html",
     "bid_result_link": "",
     "first_seen": "2026-04-20",
-    "notes": "中俄宽体客机研发基地，大型厂房"
+    "notes": "中俄宽体客机研发基地，大型厂房",
+    "bd_score": 2.1,
+    "bd_score_details": {
+      "volume": 0,
+      "timeliness": 5,
+      "contractor": 2
+    }
   },
   {
     "id": "b5bc623a",
@@ -1963,8 +2353,8 @@
     "investment": null,
     "area": null,
     "template_estimate": "地铁车站+隧道模板需求中等",
-    "bd_priority": 2,
-    "bd_priority_text": "⭐⭐",
+    "bd_priority": 1,
+    "bd_priority_text": "⭐",
     "contractor": "施工总承包（多标段）",
     "contractor_website": "https://jzsc.mohurd.gov.cn",
     "contractor_credit_code": "",
@@ -1977,7 +2367,13 @@
     "bid_link": "https://www.shanghai.gov.cn/nw48306/20260226/81f6559887674c8bb40402a4f1428953.html",
     "bid_result_link": "",
     "first_seen": "2026-04-20",
-    "notes": "新建地铁23号线，穿越徐汇闵行"
+    "notes": "新建地铁23号线，穿越徐汇闵行",
+    "bd_score": 2.1,
+    "bd_score_details": {
+      "volume": 0,
+      "timeliness": 5,
+      "contractor": 2
+    }
   },
   {
     "id": "5b1b2d5d",
@@ -1993,8 +2389,8 @@
     "investment": null,
     "area": null,
     "template_estimate": "大型医院综合楼模板需求大",
-    "bd_priority": 3,
-    "bd_priority_text": "⭐⭐⭐",
+    "bd_priority": 1,
+    "bd_priority_text": "⭐",
     "contractor": "施工总承包",
     "contractor_website": "https://jzsc.mohurd.gov.cn",
     "contractor_credit_code": "",
@@ -2007,7 +2403,13 @@
     "bid_link": "https://www.shanghai.gov.cn/nw48306/20260226/81f6559887674c8bb40402a4f1428953.html",
     "bid_result_link": "",
     "first_seen": "2026-04-20",
-    "notes": "仁济医院南院区综合楼，大型医疗综合体"
+    "notes": "仁济医院南院区综合楼，大型医疗综合体",
+    "bd_score": 2.1,
+    "bd_score_details": {
+      "volume": 0,
+      "timeliness": 5,
+      "contractor": 2
+    }
   },
   {
     "id": "f0c455a2",
@@ -2023,8 +2425,8 @@
     "investment": null,
     "area": null,
     "template_estimate": "宿舍楼模板需求中等",
-    "bd_priority": 2,
-    "bd_priority_text": "⭐⭐",
+    "bd_priority": 1,
+    "bd_priority_text": "⭐",
     "contractor": "施工总承包",
     "contractor_website": "https://jzsc.mohurd.gov.cn",
     "contractor_credit_code": "",
@@ -2037,7 +2439,13 @@
     "bid_link": "https://www.shanghai.gov.cn/nw48306/20260226/81f6559887674c8bb40402a4f1428953.html",
     "bid_result_link": "",
     "first_seen": "2026-04-20",
-    "notes": "同济大学宿舍楼新建，标准层模板"
+    "notes": "同济大学宿舍楼新建，标准层模板",
+    "bd_score": 2.1,
+    "bd_score_details": {
+      "volume": 0,
+      "timeliness": 5,
+      "contractor": 2
+    }
   },
   {
     "id": "3f01246f",
@@ -2053,8 +2461,8 @@
     "investment": null,
     "area": null,
     "template_estimate": "高职校区扩建模板需求中等",
-    "bd_priority": 2,
-    "bd_priority_text": "⭐⭐",
+    "bd_priority": 1,
+    "bd_priority_text": "⭐",
     "contractor": "施工总承包",
     "contractor_website": "https://jzsc.mohurd.gov.cn",
     "contractor_credit_code": "",
@@ -2067,7 +2475,13 @@
     "bid_link": "https://www.shanghai.gov.cn/nw48306/20260226/81f6559887674c8bb40402a4f1428953.html",
     "bid_result_link": "",
     "first_seen": "2026-04-20",
-    "notes": "高职院校扩建，教学楼+宿舍"
+    "notes": "高职院校扩建，教学楼+宿舍",
+    "bd_score": 2.1,
+    "bd_score_details": {
+      "volume": 0,
+      "timeliness": 5,
+      "contractor": 2
+    }
   },
   {
     "id": "d9919edb",
@@ -2083,8 +2497,8 @@
     "investment": null,
     "area": null,
     "template_estimate": "大学四期扩建，模板需求中上",
-    "bd_priority": 2,
-    "bd_priority_text": "⭐⭐",
+    "bd_priority": 1,
+    "bd_priority_text": "⭐",
     "contractor": "施工总承包",
     "contractor_website": "https://jzsc.mohurd.gov.cn",
     "contractor_credit_code": "",
@@ -2097,7 +2511,13 @@
     "bid_link": "https://www.shanghai.gov.cn/nw48306/20260226/81f6559887674c8bb40402a4f1428953.html",
     "bid_result_link": "",
     "first_seen": "2026-04-20",
-    "notes": "应技大奉贤四期"
+    "notes": "应技大奉贤四期",
+    "bd_score": 2.1,
+    "bd_score_details": {
+      "volume": 0,
+      "timeliness": 5,
+      "contractor": 2
+    }
   },
   {
     "id": "9752a887",
@@ -2113,8 +2533,8 @@
     "investment": null,
     "area": null,
     "template_estimate": "急救中心，模板需求中等",
-    "bd_priority": 2,
-    "bd_priority_text": "⭐⭐",
+    "bd_priority": 1,
+    "bd_priority_text": "⭐",
     "contractor": "施工总承包",
     "contractor_website": "https://jzsc.mohurd.gov.cn",
     "contractor_credit_code": "",
@@ -2127,7 +2547,13 @@
     "bid_link": "https://www.shanghai.gov.cn/nw48306/20260226/81f6559887674c8bb40402a4f1428953.html",
     "bid_result_link": "",
     "first_seen": "2026-04-20",
-    "notes": "瑞金医院急救中心，黄浦区核心"
+    "notes": "瑞金医院急救中心，黄浦区核心",
+    "bd_score": 2.1,
+    "bd_score_details": {
+      "volume": 0,
+      "timeliness": 5,
+      "contractor": 2
+    }
   },
   {
     "id": "5932bcd9",
@@ -2143,8 +2569,8 @@
     "investment": null,
     "area": null,
     "template_estimate": "医院综合楼模板需求中上",
-    "bd_priority": 2,
-    "bd_priority_text": "⭐⭐",
+    "bd_priority": 1,
+    "bd_priority_text": "⭐",
     "contractor": "施工总承包",
     "contractor_website": "https://jzsc.mohurd.gov.cn",
     "contractor_credit_code": "",
@@ -2157,7 +2583,13 @@
     "bid_link": "https://www.shanghai.gov.cn/nw48306/20260226/81f6559887674c8bb40402a4f1428953.html",
     "bid_result_link": "",
     "first_seen": "2026-04-20",
-    "notes": "上海中医特色三甲医院门急诊楼"
+    "notes": "上海中医特色三甲医院门急诊楼",
+    "bd_score": 2.1,
+    "bd_score_details": {
+      "volume": 0,
+      "timeliness": 5,
+      "contractor": 2
+    }
   },
   {
     "id": "ea110633",
@@ -2173,8 +2605,8 @@
     "investment": null,
     "area": null,
     "template_estimate": "医院新楼，模板需求中上",
-    "bd_priority": 2,
-    "bd_priority_text": "⭐⭐",
+    "bd_priority": 1,
+    "bd_priority_text": "⭐",
     "contractor": "施工总承包",
     "contractor_website": "https://jzsc.mohurd.gov.cn",
     "contractor_credit_code": "",
@@ -2187,7 +2619,13 @@
     "bid_link": "https://www.shanghai.gov.cn/nw48306/20260226/81f6559887674c8bb40402a4f1428953.html",
     "bid_result_link": "",
     "first_seen": "2026-04-20",
-    "notes": "十院肿瘤精准诊疗中心，静安区"
+    "notes": "十院肿瘤精准诊疗中心，静安区",
+    "bd_score": 2.1,
+    "bd_score_details": {
+      "volume": 0,
+      "timeliness": 5,
+      "contractor": 2
+    }
   },
   {
     "id": "6880ca08",
@@ -2203,8 +2641,8 @@
     "investment": null,
     "area": null,
     "template_estimate": "科创总部+厂房，模板需求中上",
-    "bd_priority": 2,
-    "bd_priority_text": "⭐⭐",
+    "bd_priority": 1,
+    "bd_priority_text": "⭐",
     "contractor": "施工总承包",
     "contractor_website": "https://jzsc.mohurd.gov.cn",
     "contractor_credit_code": "",
@@ -2217,7 +2655,13 @@
     "bid_link": "https://www.shanghai.gov.cn/nw48306/20260226/81f6559887674c8bb40402a4f1428953.html",
     "bid_result_link": "",
     "first_seen": "2026-04-20",
-    "notes": "心血管医疗器械龙头，临港基地"
+    "notes": "心血管医疗器械龙头，临港基地",
+    "bd_score": 2.1,
+    "bd_score_details": {
+      "volume": 0,
+      "timeliness": 5,
+      "contractor": 2
+    }
   },
   {
     "id": "326bf154",
@@ -2233,8 +2677,8 @@
     "investment": null,
     "area": null,
     "template_estimate": "研发总部大楼，模板需求中等",
-    "bd_priority": 2,
-    "bd_priority_text": "⭐⭐",
+    "bd_priority": 1,
+    "bd_priority_text": "⭐",
     "contractor": "施工总承包",
     "contractor_website": "https://jzsc.mohurd.gov.cn",
     "contractor_credit_code": "",
@@ -2247,7 +2691,13 @@
     "bid_link": "https://www.shanghai.gov.cn/nw48306/20260226/81f6559887674c8bb40402a4f1428953.html",
     "bid_result_link": "",
     "first_seen": "2026-04-20",
-    "notes": "齐鲁药业上海研发总部，张江"
+    "notes": "齐鲁药业上海研发总部，张江",
+    "bd_score": 2.1,
+    "bd_score_details": {
+      "volume": 0,
+      "timeliness": 5,
+      "contractor": 2
+    }
   },
   {
     "id": "f5df9b29",
@@ -2263,8 +2713,8 @@
     "investment": null,
     "area": null,
     "template_estimate": "生物医药园区，多栋厂房+研发楼，模板需求大",
-    "bd_priority": 3,
-    "bd_priority_text": "⭐⭐⭐",
+    "bd_priority": 1,
+    "bd_priority_text": "⭐",
     "contractor": "施工总承包（多标段）",
     "contractor_website": "https://jzsc.mohurd.gov.cn",
     "contractor_credit_code": "",
@@ -2277,7 +2727,13 @@
     "bid_link": "https://www.shanghai.gov.cn/nw48306/20260226/81f6559887674c8bb40402a4f1428953.html",
     "bid_result_link": "",
     "first_seen": "2026-04-20",
-    "notes": "宝山生物医药产业园，多栋建筑，重点跟进"
+    "notes": "宝山生物医药产业园，多栋建筑，重点跟进",
+    "bd_score": 2.1,
+    "bd_score_details": {
+      "volume": 0,
+      "timeliness": 5,
+      "contractor": 2
+    }
   },
   {
     "id": "c5f5c477",
@@ -2293,8 +2749,8 @@
     "investment": null,
     "area": null,
     "template_estimate": "医药厂房，模板需求中等",
-    "bd_priority": 2,
-    "bd_priority_text": "⭐⭐",
+    "bd_priority": 1,
+    "bd_priority_text": "⭐",
     "contractor": "施工总承包",
     "contractor_website": "https://jzsc.mohurd.gov.cn",
     "contractor_credit_code": "",
@@ -2307,7 +2763,13 @@
     "bid_link": "https://www.shanghai.gov.cn/nw48306/20260226/81f6559887674c8bb40402a4f1428953.html",
     "bid_result_link": "",
     "first_seen": "2026-04-20",
-    "notes": "中药智能制造升级项目"
+    "notes": "中药智能制造升级项目",
+    "bd_score": 2.1,
+    "bd_score_details": {
+      "volume": 0,
+      "timeliness": 5,
+      "contractor": 2
+    }
   },
   {
     "id": "3909c446",
@@ -2337,7 +2799,13 @@
     "bid_link": "https://data.eastmoney.com/notices/detail/600170/AN202604141821199799.html",
     "bid_result_link": "https://wap.stockstar.com/detail/SN2026041400039304",
     "first_seen": "2026-04-20",
-    "notes": "上海建工新签，国家重点实验室级别，大型科研综合体"
+    "notes": "上海建工新签，国家重点实验室级别，大型科研综合体",
+    "bd_score": 9.1,
+    "bd_score_details": {
+      "volume": 10,
+      "timeliness": 7,
+      "contractor": 10
+    }
   },
   {
     "id": "1d248912",
@@ -2367,7 +2835,13 @@
     "bid_link": "https://data.eastmoney.com/notices/detail/600170/AN202604141821199799.html",
     "bid_result_link": "https://wap.stockstar.com/detail/SN2026041400039304",
     "first_seen": "2026-04-20",
-    "notes": "嘉定光通信厂房二期，上海建工新签"
+    "notes": "嘉定光通信厂房二期，上海建工新签",
+    "bd_score": 5.1,
+    "bd_score_details": {
+      "volume": 0,
+      "timeliness": 7,
+      "contractor": 10
+    }
   },
   {
     "id": "cce34e3b",
@@ -2397,7 +2871,13 @@
     "bid_link": "https://data.eastmoney.com/notices/detail/600170/AN202604141821199799.html",
     "bid_result_link": "https://wap.stockstar.com/detail/SN2026041400039304",
     "first_seen": "2026-04-20",
-    "notes": "黄浦区老城厢历史保护修缮+地下空间综合开发，上海建工新签"
+    "notes": "黄浦区老城厢历史保护修缮+地下空间综合开发，上海建工新签",
+    "bd_score": 5.1,
+    "bd_score_details": {
+      "volume": 0,
+      "timeliness": 7,
+      "contractor": 10
+    }
   },
   {
     "id": "5ed9f1f6",
@@ -2427,6 +2907,12 @@
     "bid_link": "https://data.eastmoney.com/notices/detail/600170/AN202604141821199799.html",
     "bid_result_link": "https://wap.stockstar.com/detail/SN2026041400039304",
     "first_seen": "2026-04-20",
-    "notes": "长三角示范区水乡客厅二期，上海建工新签"
+    "notes": "长三角示范区水乡客厅二期，上海建工新签",
+    "bd_score": 5.1,
+    "bd_score_details": {
+      "volume": 0,
+      "timeliness": 7,
+      "contractor": 10
+    }
   }
 ]
