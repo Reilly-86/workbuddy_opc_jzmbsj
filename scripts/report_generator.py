@@ -114,7 +114,6 @@ def generate_report(
     }
 
     # Jinja2 渲染
-    project_root = Path(__file__).parent.parent
     env = Environment(
         loader=FileSystemLoader(str(template_path.parent)),
         autoescape=False,

@@ -24,7 +24,8 @@ from config import get, get_feishu_secret, PROJECT_ROOT
 # ============ 配置区域（从 config.json 读取） ============
 APP_ID       = get("feishu.app_id")
 APP_SECRET   = get_feishu_secret()
-REDIRECT_URI = "http://localhost:9999/callback"
+REDIRECT_URI = get("feishu.oauth.redirect_uri", "http://localhost:9999/callback")
+OAUTH_SCOPE  = get("feishu.oauth.scope", "wiki:wiki docx:document auth:user.id:read")
 TOKEN_CACHE  = PROJECT_ROOT / "scripts" / "token_cache.json"
 # ==================================
 
@@ -183,7 +184,7 @@ def main():
         "app_id":        APP_ID,
         "redirect_uri":  REDIRECT_URI,
         "response_type": "code",
-        "scope":         "wiki:wiki docx:document auth:user.id:read",
+        "scope":         OAUTH_SCOPE,
     }
     auth_url = "https://open.feishu.cn/open-apis/authen/v1/authorize?" + urlencode(params)
 

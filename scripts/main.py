@@ -73,16 +73,20 @@ def compute_diff(current: list, previous: Optional[list]) -> tuple:
                 p["first_seen"] = datetime.now().strftime("%Y-%m-%d")
         return current, len(current)
 
-    # 构建历史 ID 集合
+    # 构建历史 ID 集合和 first_seen 查找表（O(n) 预处理）
     old_ids = set()
+    first_seen_map = {}  # id -> first_seen
     for p in previous:
         # 兼容旧格式（整数 ID）和新格式（哈希 ID）
         pid = p.get("id")
         name = p.get("name", "")
         if pid and isinstance(pid, str) and len(pid) == 8:
             old_ids.add(pid)
+            first_seen_map[pid] = p.get("first_seen")
         elif name:
-            old_ids.add(project_hash(name))
+            hashed = project_hash(name)
+            old_ids.add(hashed)
+            first_seen_map[hashed] = p.get("first_seen")
 
     new_count = 0
     for p in current:
@@ -93,16 +97,8 @@ def compute_diff(current: list, previous: Optional[list]) -> tuple:
             new_count += 1
         else:
             p["is_new"] = False
-            # 保留原有的 first_seen
-            for old in previous:
-                old_id = old.get("id")
-                if not old_id or isinstance(old_id, int):
-                    if old.get("name") == p.get("name"):
-                        p["first_seen"] = old.get("first_seen", p.get("first_seen"))
-                        break
-                elif old_id == p["id"]:
-                    p["first_seen"] = old.get("first_seen", p.get("first_seen"))
-                    break
+            # O(1) 查找原有的 first_seen
+            p["first_seen"] = first_seen_map.get(p["id"], p.get("first_seen"))
 
     return current, new_count
 
@@ -183,6 +179,11 @@ def run(
     previous = load_yesterday_snapshot(today)
     projects, new_count = compute_diff(projects, previous)
     print(f"[INFO] 增量对比完成: 新增 {new_count} 个项目")
+
+    # Step 2.5: BD 评分计算（基于 config.json 规则）
+    from scoring import score_projects
+    projects = score_projects(projects)
+    print(f"[INFO] BD 评分计算完成")
 
     # Step 3: 保存数据 & 历史快照
     with open(projects_file, "w", encoding="utf-8") as f:

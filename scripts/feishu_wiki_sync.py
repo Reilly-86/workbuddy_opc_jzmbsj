@@ -39,12 +39,12 @@ def save_state(state: dict):
 
 
 def already_synced(today: str) -> bool:
-    return load_state().get("last_sync_date") == today
+    return load_state().get("last_notify_date") == today
 
 
 def mark_synced(today: str, node_token: str):
     state = load_state()
-    state["last_sync_date"] = today
+    state["last_notify_date"] = today
     state["last_node_token"] = node_token
     save_state(state)
 
