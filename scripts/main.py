@@ -40,6 +40,34 @@ def save_history_snapshot(projects: list, date_str: str):
         json.dump(projects, f, ensure_ascii=False, indent=2)
     print(f"[OK] 历史快照已保存: {snapshot_file}")
 
+    # 清理旧快照（保留最近 30 天）
+    cleanup_old_snapshots(date_str)
+
+
+def cleanup_old_snapshots(today_str: str):
+    """清理超过 30 天的旧快照文件"""
+    max_days = get("scoring.history_max_days", 30)
+    history_dir = get_path("paths.history_dir")
+    if not history_dir.exists():
+        return
+
+    snapshots = sorted(history_dir.glob("*.json"))
+    if len(snapshots) <= max_days:
+        return
+
+    # 排除今天的快照
+    today_file = history_dir / f"{today_str}.json"
+    old_snapshots = [s for s in snapshots if s != today_file]
+
+    # 删除超出保留期限的文件
+    removed_count = 0
+    for old_file in old_snapshots[max_days:]:
+        old_file.unlink()
+        removed_count += 1
+
+    if removed_count > 0:
+        print(f"[CLEANUP] 已清理 {removed_count} 个旧快照（保留最近 {max_days} 天）")
+
 
 def load_yesterday_snapshot(date_str: str) -> Optional[list]:
     """加载最近一个历史快照（不一定昨天，取最近日期）"""
