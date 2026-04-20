@@ -14,7 +14,7 @@ from datetime import datetime
 from pathlib import Path
 from typing import Optional
 
-from config import get_path
+from config import get_path, get
 from feishu_client import FeishuClient
 from notifier import Notifier
 
@@ -73,12 +73,15 @@ def sync_wiki(
     if not title:
         title = f"上海建材商机日报 · {today}"
 
+    # 获取飞书域名
+    feishu_domain = get("feishu.wiki.domain", "liusong")
+
     # 1. 幂等检查
     if not force and already_synced(today):
         print(f"[SKIP] 今日 ({today}) 已同步过，跳过")
         state = load_state()
         node_token = state.get("last_node_token", "")
-        return f"https://liusong.feishu.cn/wiki/{node_token}" if node_token else None
+        return f"https://{feishu_domain}.feishu.cn/wiki/{node_token}" if node_token else None
 
     # 2. 创建知识库文档
     client = FeishuClient()
@@ -87,7 +90,7 @@ def sync_wiki(
         print("[ERROR] 知识库文档创建失败")
         return None
 
-    wiki_url = f"https://liusong.feishu.cn/wiki/{node_token}"
+    wiki_url = f"https://{feishu_domain}.feishu.cn/wiki/{node_token}"
     print(f"[INFO] 文档创建成功: {wiki_url}")
 
     # 3. 写入文档内容
