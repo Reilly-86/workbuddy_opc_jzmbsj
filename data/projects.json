@@ -496,10 +496,10 @@
     "bid_result_link": "https://www.shexgrp.com/jyzx/001001/001001001/001001001001/20250228/8175488.html",
     "first_seen": "2026-04-19",
     "notes": "上海大学扩建，教学楼+宿舍",
-    "bd_score": 4.2,
+    "bd_score": 3.6,
     "bd_score_details": {
       "volume": 0,
-      "timeliness": 4,
+      "timeliness": 2,
       "contractor": 10
     }
   },
@@ -4605,7 +4605,7 @@
       "timeliness": 7,
       "contractor": 2
     },
-    "is_new": true
+    "is_new": false
   },
   {
     "id": "abeeb968",
@@ -4641,7 +4641,7 @@
       "timeliness": 7,
       "contractor": 2
     },
-    "is_new": true
+    "is_new": false
   },
   {
     "id": "0f88ce29",
@@ -4677,7 +4677,7 @@
       "timeliness": 7,
       "contractor": 2
     },
-    "is_new": true
+    "is_new": false
   },
   {
     "id": "f1da137a",
@@ -4713,7 +4713,7 @@
       "timeliness": 7,
       "contractor": 2
     },
-    "is_new": true
+    "is_new": false
   },
   {
     "id": "2001deec",
@@ -4749,7 +4749,7 @@
       "timeliness": 7,
       "contractor": 2
     },
-    "is_new": true
+    "is_new": false
   },
   {
     "id": "b4bebd80",
@@ -4785,7 +4785,7 @@
       "timeliness": 7,
       "contractor": 2
     },
-    "is_new": true
+    "is_new": false
   },
   {
     "id": "310e4fbb",
@@ -4821,7 +4821,7 @@
       "timeliness": 7,
       "contractor": 2
     },
-    "is_new": true
+    "is_new": false
   },
   {
     "id": "47762bd6",
@@ -4857,7 +4857,7 @@
       "timeliness": 7,
       "contractor": 2
     },
-    "is_new": true
+    "is_new": false
   },
   {
     "id": "3d624903",
@@ -4893,7 +4893,7 @@
       "timeliness": 7,
       "contractor": 2
     },
-    "is_new": true
+    "is_new": false
   },
   {
     "id": "4e9e01ba",
@@ -4929,7 +4929,7 @@
       "timeliness": 10,
       "contractor": 10
     },
-    "is_new": true
+    "is_new": false
   },
   {
     "id": "f595b7e6",
@@ -4965,7 +4965,7 @@
       "timeliness": 7,
       "contractor": 2
     },
-    "is_new": true
+    "is_new": false
   },
   {
     "id": "dc5927aa",
@@ -5001,7 +5001,7 @@
       "timeliness": 7,
       "contractor": 2
     },
-    "is_new": true
+    "is_new": false
   },
   {
     "id": "0d5b6de9",
@@ -5037,7 +5037,7 @@
       "timeliness": 7,
       "contractor": 2
     },
-    "is_new": true
+    "is_new": false
   },
   {
     "id": "462b7b8a",
@@ -5073,7 +5073,7 @@
       "timeliness": 7,
       "contractor": 2
     },
-    "is_new": true
+    "is_new": false
   },
   {
     "id": "238c7b22",
@@ -5109,6 +5109,6 @@
       "timeliness": 7,
       "contractor": 2
     },
-    "is_new": true
+    "is_new": false
   }
 ]
